@@ -1,7 +1,7 @@
 # coffee-life
 
 
-##springcloud
+#springcloud
 
 [springcloud版本选择，解决版本选择困惑](springcloud/springcloud版本.md)
 
@@ -17,7 +17,8 @@
 
 
 
-##Oauth2，springcloud整合
+#Oauth2，springcloud整合
+
 [Oauth2简介](oauth2/oauth2.md)
 
 [Oauth2_jwt,这里很多干货*****](oauth2/oauth2_jwt.md)
