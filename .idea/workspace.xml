@@ -1,272 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d854ce92-e816-4113-af47-4380bf271914" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/META-INF/cl-framework-model.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/CourseBase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/CourseIndex.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/CourseMarket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/CourseOff.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/CoursePic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/CoursePre.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/CoursePub.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/Teachplan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/TeachplanMedia.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/TeachplanMediaPub.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/ext/CategoryNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/ext/CategoryParameter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/ext/CourseInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/ext/CourseView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/ext/TeachplanExt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/ext/TeachplanNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/ext/TeachplanParameter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/request/CourseListRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/response/AddCourseResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/response/CourseCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/response/CoursePublishResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/course/response/DeleteCourseResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/log/Log$LogBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/log/Log.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/portalview/PreViewCourse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/portalview/PreViewCourseMedia.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/portalview/ViewCourse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/portalview/ViewCourseMedia.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/portalview/response/PortalViewCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/search/CourseSearchParam.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/system/SysDictionary.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/system/SysDictionaryValue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/task/XcTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/task/XcTaskHis.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/test/UserTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/ucenter/XcCompany.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/ucenter/XcCompanyUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/ucenter/XcMenu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/ucenter/XcPermission.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/ucenter/XcRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/ucenter/XcTeacher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/ucenter/XcUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/ucenter/XcUserRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/ucenter/ext/AuthToken.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/ucenter/ext/UserBasicInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/ucenter/ext/UserToken.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/ucenter/ext/UserTokenStore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/ucenter/ext/XcMenuExt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/ucenter/ext/XcUserExt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/ucenter/request/LoginRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/ucenter/response/AuthCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/ucenter/response/JwtResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/ucenter/response/LoginResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/ucenter/response/UcenterCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/cms/CmsConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/cms/CmsConfigModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/cms/CmsPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/cms/CmsPageParam.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/cms/CmsSite.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/cms/CmsSiteServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/cms/CmsTemplate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/cms/ext/CmsPageExt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/cms/ext/CmsTemplateExt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/cms/request/QueryPageRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/cms/response/CmsCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/cms/response/CmsPageResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/cms/response/CmsPostPageResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/cms/response/CoursePreviewResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/cms/response/GenerateHtmlResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/CourseBase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/CourseIndex.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/CourseMarket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/CourseOff.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/CoursePic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/CoursePre.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/CoursePub.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/Teachplan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/TeachplanMedia.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/TeachplanMediaPub.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/ext/CategoryNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/ext/CategoryParameter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/ext/CourseInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/ext/CourseView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/ext/TeachplanExt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/ext/TeachplanNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/ext/TeachplanParameter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/request/CourseListRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/response/AddCourseResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/response/CourseCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/response/CoursePublishResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/course/response/DeleteCourseResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/filesystem/FileSystem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/filesystem/response/FileSystemCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/filesystem/response/UploadFileResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/learning/XcLearningCourse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/learning/XcLearningList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/learning/respones/GetMediaResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/learning/respones/LearningCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/media/MediaFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/media/MediaFileProcess.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/media/MediaFileProcess_m3u8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/media/MediaVideoCourse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/media/MediaVideoCourseSimple.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/media/request/QueryMediaFileRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/media/response/CheckChunkResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/media/response/MediaCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/media/response/MediaCourseResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/media/response/MediaFileResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/order/XcOrders.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/order/XcOrdersDetail.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/order/XcOrdersPay.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/order/request/CreateOrderRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/order/request/weixinPayInformRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/order/response/CreateOrderResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/order/response/OrderCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/order/response/OrderResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/order/response/PayOrderResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/order/response/PayQrcodeResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/portalview/PreViewCourse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/portalview/PreViewCourseMedia.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/portalview/ViewCourse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/portalview/ViewCourseMedia.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/portalview/response/PortalViewCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/report/ReportCompany.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/report/ReportCourse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/search/CourseSearchParam.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/system/SysDictionary.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/system/SysDictionaryValue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/task/XcTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/task/XcTaskHis.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/test/UserTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/XcCompany.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/XcCompanyUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/XcMenu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/XcPermission.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/XcRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/XcTeacher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/XcUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/XcUserRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/ext/AuthToken.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/ext/UserBasicInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/ext/UserToken.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/ext/UserTokenStore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/ext/XcMenuExt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/ext/XcUserExt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/request/LoginRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/response/AuthCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/response/JwtResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/response/LoginResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/response/UcenterCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-framework-model/target/xc-framework-model.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-govern-center/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-govern-center/target/classes/com/coffee/life/govern/center/GovernCenterApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-govern-center/target/classes/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-govern-gateway/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-govern-gateway/target/classes/com/coffee/life/govern/gateway/GatewayApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-govern-gateway/target/classes/com/coffee/life/govern/gateway/filter/InternalURIAccessFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-govern-gateway/target/classes/com/coffee/life/govern/gateway/filter/LoginFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-govern-gateway/target/classes/com/coffee/life/govern/gateway/service/AuthService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-govern-gateway/target/classes/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-log-starter/target/classes/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-log-starter/target/classes/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-log-starter/target/classes/com/coffee/life/log/starter/LogAop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-log-starter/target/classes/com/coffee/life/log/starter/LogAutoConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-log-starter/target/classes/com/coffee/life/log/starter/LogMqClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/classes/META-INF/cl-service-api.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/classes/com/coffee/life/api/auth/AuthControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/classes/com/coffee/life/api/config/Swagger2Configuration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/classes/com/coffee/life/api/course/CourseControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/classes/com/coffee/life/api/search/EsCourseControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/classes/com/coffee/life/api/ucenter/UcenterControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/classes/com/xuecheng/api/auth/AuthControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/classes/com/xuecheng/api/cms/CmsConfigControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/classes/com/xuecheng/api/cms/CmsPageControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/classes/com/xuecheng/api/config/Swagger2Configuration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/classes/com/xuecheng/api/course/CourseControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/classes/com/xuecheng/api/filesystem/FileSystemControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/classes/com/xuecheng/api/learning/CourseLearningControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/classes/com/xuecheng/api/media/MediaFileControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/classes/com/xuecheng/api/media/MediaUploadControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/classes/com/xuecheng/api/search/EsCourseControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/classes/com/xuecheng/api/ucenter/UcenterControllerApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-api/target/xc-service-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/classes/com/coffee/life/manage/course/ManageCourseApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/classes/com/coffee/life/manage/course/client/CmsPageClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/classes/com/coffee/life/manage/course/config/ResourceServerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/classes/com/coffee/life/manage/course/controller/CourseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/classes/com/coffee/life/manage/course/dao/CourseBaseRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/classes/com/coffee/life/manage/course/dao/CourseMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/classes/com/coffee/life/manage/course/dao/CourseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/classes/com/coffee/life/manage/course/dao/CourseMarketRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/classes/com/coffee/life/manage/course/dao/CoursePicRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/classes/com/coffee/life/manage/course/dao/CoursePubRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/classes/com/coffee/life/manage/course/dao/TeachplanMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/classes/com/coffee/life/manage/course/dao/TeachplanMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/classes/com/coffee/life/manage/course/dao/TeachplanMediaPubRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/classes/com/coffee/life/manage/course/dao/TeachplanMediaRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/classes/com/coffee/life/manage/course/dao/TeachplanRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/classes/com/coffee/life/manage/course/exception/CustomExceptionCatch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/classes/com/coffee/life/manage/course/service/CourseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/classes/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/classes/publickey.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/test-classes/com/coffee/life/manage/course/TestFeign.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/test-classes/com/coffee/life/manage/course/TestRibbon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-manage-course/target/test-classes/com/coffee/life/manage/course/dao/TestDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-search/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-search/target/classes/com/coffee/life/search/SearchApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-search/target/classes/com/coffee/life/search/config/ElasticsearchConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-search/target/classes/com/coffee/life/search/controller/EsCourseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-search/target/classes/com/coffee/life/search/service/EsCourseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-search/target/classes/com/xuecheng/search/SearchApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-search/target/classes/com/xuecheng/search/config/ElasticsearchConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-search/target/classes/com/xuecheng/search/controller/EsCourseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-search/target/classes/com/xuecheng/search/service/EsCourseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-search/target/classes/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-search/target/test-classes/com/coffee/life/search/TestIndex.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-search/target/test-classes/com/coffee/life/search/TestSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-search/target/test-classes/com/xuecheng/search/TestIndex.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-search/target/test-classes/com/xuecheng/search/TestSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/target/classes/com/coffee/life/auth/UcenterAuthApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/target/classes/com/coffee/life/auth/client/UserClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/target/classes/com/coffee/life/auth/config/AuthorizationServerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/target/classes/com/coffee/life/auth/config/CustomUserAuthenticationConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/target/classes/com/coffee/life/auth/config/WebSecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/target/classes/com/coffee/life/auth/controller/AuthController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/target/classes/com/coffee/life/auth/service/AuthService$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/target/classes/com/coffee/life/auth/service/AuthService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/target/classes/com/coffee/life/auth/service/UserDetailsServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/target/classes/com/coffee/life/auth/service/UserJwt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/target/classes/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/target/classes/xc.keystore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/target/test-classes/com/coffee/life/auth/PasswordTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/target/test-classes/com/coffee/life/auth/TestClient$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/target/test-classes/com/coffee/life/auth/TestClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/target/test-classes/com/coffee/life/auth/TestJwt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/target/test-classes/com/coffee/life/auth/TestRedis.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter/target/classes/com/coffee/life/ucenter/UcenterApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter/target/classes/com/coffee/life/ucenter/config/ResourceServerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter/target/classes/com/coffee/life/ucenter/controller/UcenterController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter/target/classes/com/coffee/life/ucenter/dao/XcCompanyUserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter/target/classes/com/coffee/life/ucenter/dao/XcMenuMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter/target/classes/com/coffee/life/ucenter/dao/XcMenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter/target/classes/com/coffee/life/ucenter/dao/XcUserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter/target/classes/com/coffee/life/ucenter/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter/target/classes/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-service-ucenter/target/classes/publickey.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-zipkin-server/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-zipkin-server/target/classes/com/coffee/life/zipkin/ZipkinApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl-zipkin-server/target/classes/logback-spring.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d854ce92-e816-4113-af47-4380bf271914" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cl-service-api/target/" />
     <ignored path="$PROJECT_DIR$/cl-service-ucenter-auth/target/" />
     <ignored path="$PROJECT_DIR$/cl-service-search/target/" />
@@ -379,12 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/LogCenterApplication.java" />
-        <option value="$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/config/AsycTaskExecutorConfig.java" />
-        <option value="$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/config/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/cl-framework-model/src/main/java/com/coffee/life/framework/domain/log/Log.java" />
-        <option value="$PROJECT_DIR$/cl-framework-common/src/main/java/com/coffee/life/framework/utils/PhoneUtil.java" />
-        <option value="$PROJECT_DIR$/cl-framework-common/src/main/java/com/coffee/life/framework/model/request/Page.java" />
         <option value="$PROJECT_DIR$/cl-framework-common/src/main/java/com/coffee/life/framework/model/response/Page.java" />
         <option value="$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/service/LogService.java" />
         <option value="$PROJECT_DIR$/cl-framework-common/src/main/java/com/coffee/life/framework/utils/PageUtil.java" />
@@ -430,6 +159,12 @@
         <option value="$PROJECT_DIR$/cl-govern-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/cl-framework-model/src/main/java/com/coffee/life/framework/domain/portalview/PreViewCourseMedia.java" />
         <option value="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAop.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/cl-log-starter/src/main/resources/.gitignore" />
+        <option value="$PROJECT_DIR$/cl-log-center/src/main/resources/.gitignore" />
+        <option value="$PROJECT_DIR$/cl-framework-parent/.gitignore" />
+        <option value="$PROJECT_DIR$/cl-framework-utils/.gitignore" />
+        <option value="$PROJECT_DIR$/cl-framework-common/.gitignore" />
       </list>
     </option>
   </component>
@@ -438,13 +173,6 @@
       <expand />
       <select />
     </treeState>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="146" />
@@ -522,8 +250,8 @@
       <recent name="com.coffee.life.govern.gateway.filter" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cl-framework-utils/src/main/java/com/coffee/life/framework/utils" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/cl-framework-utils/src/main/java/com/coffee/life/framework/utils" />
       <recent name="$PROJECT_DIR$/cl-log-starter/src/main/resources" />
       <recent name="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter" />
       <recent name="$PROJECT_DIR$/cl-log-starter" />
@@ -743,7 +471,7 @@
       <workItem from="1564739158407" duration="7022000" />
       <workItem from="1564750226588" duration="159000" />
       <workItem from="1564750402223" duration="311000" />
-      <workItem from="1564750717435" duration="491000" />
+      <workItem from="1564750717435" duration="950000" />
     </task>
     <task id="LOCAL-00001" summary="delete readme">
       <created>1564750274693</created>
@@ -759,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564750522388</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="delete init project">
+      <created>1564751557676</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564751557676</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -795,7 +530,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288936000" />
+    <option name="totallyTimeSpent" value="289395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="979" extended-state="6" />
@@ -817,8 +552,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.5937873" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.81219214" visible="true" weight="0.5495818" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.18780789" side_tool="true" visible="true" weight="0.5495818" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.81219214" visible="true" weight="0.5794504" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.18780789" side_tool="true" visible="true" weight="0.5794504" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.47550777" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3297491" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -941,34 +676,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/provider/authentication/OAuth2AuthenticationManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/provider/token/ResourceServerTokenServices.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/provider/token/TokenStore.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/provider/token/DefaultTokenServices.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="94" column="70" selection-start-line="94" selection-start-column="62" selection-end-line="94" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.1.RELEASE/spring-security-oauth2-2.2.1.RELEASE.jar!/org/springframework/security/oauth2/provider/token/store/redis/RedisTokenStore.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1521,15 +1228,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cl-log-starter/src/main/resources/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/resources/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cl-framework-parent/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="80">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cl-framework-utils/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-framework-common/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
