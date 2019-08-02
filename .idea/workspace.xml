@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d854ce92-e816-4113-af47-4380bf271914" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-log-center/src/test/java/com/cloud/log/LogTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAutoConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogMqClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogMqClient.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cl-service-api/target/" />
     <ignored path="$PROJECT_DIR$/cl-service-ucenter-auth/target/" />
@@ -53,20 +57,7 @@
     <favorites_list name="xcEduService01" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="342">
-                <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -139,8 +130,6 @@
         <option value="$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/controller/LogController.java" />
         <option value="$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/service/impl/LogServiceImpl.java" />
         <option value="$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/service/impl/EsLogServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogMqClient.java" />
-        <option value="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/cl-framework-common/src/main/java/com/coffee/life/framework/annotation/LogAnnotation.java" />
         <option value="$PROJECT_DIR$/cl-framework-common/src/main/java/com/coffee/life/framework/utils/AppUserUtil.java" />
         <option value="$PROJECT_DIR$/cl-framework-model/src/main/java/com/coffee/life/framework/domain/portalview/ViewCourse.java" />
@@ -172,7 +161,6 @@
         <option value="$PROJECT_DIR$/cl-framework-utils/src/main/java/com/coffee/life/framework/utils/HttpClient.java" />
         <option value="$PROJECT_DIR$/cl-govern-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/cl-framework-model/src/main/java/com/coffee/life/framework/domain/portalview/PreViewCourseMedia.java" />
-        <option value="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAop.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/cl-log-starter/src/main/resources/.gitignore" />
         <option value="$PROJECT_DIR$/cl-log-center/src/main/resources/.gitignore" />
@@ -180,6 +168,9 @@
         <option value="$PROJECT_DIR$/cl-framework-utils/.gitignore" />
         <option value="$PROJECT_DIR$/cl-framework-common/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAop.java" />
+        <option value="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogMqClient.java" />
       </list>
     </option>
   </component>
@@ -223,8 +214,6 @@
       <foldersAlwaysOnTop value="false" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,15 +221,12 @@
               <item name="coffee-life" type="b2602c69:ProjectViewProjectNode" />
               <item name="coffee-life" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="coffee-life" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coffee-life" type="462c0819:PsiDirectoryNode" />
-              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -452,9 +438,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ManageCourseApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="JUnit.PasswordTest.testPassword" />
-        <item itemvalue="Spring Boot.ManageCourseApplication" />
         <item itemvalue="JUnit.PasswordTest.main" />
         <item itemvalue="Application.PasswordTest" />
       </list>
@@ -557,11 +543,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290269000" />
+    <option name="totallyTimeSpent" value="290589000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="979" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="979" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6332916" visible="true" weight="0.27278325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -580,7 +565,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.5937873" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.81157637" visible="true" weight="0.3679809" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.81157637" weight="0.3679809" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.18842365" side_tool="true" visible="true" weight="0.3679809" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.47550777" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3297491" />
@@ -601,7 +586,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.3294335" />
-      <window_info anchor="right" id="Maven" order="11" sideWeight="0.18711019" weight="0.12807882" />
+      <window_info anchor="right" id="Maven" order="11" sideWeight="0.18711019" weight="0.023399014" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -704,79 +689,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.5.RELEASE/spring-test-5.0.5.RELEASE.jar!/org/springframework/test/context/junit4/SpringRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-service-ucenter-auth/src/test/java/com/coffee/life/auth/TestJwt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.10/druid-spring-boot-starter-1.1.10.jar!/META-INF/maven/com.alibaba/druid-spring-boot-starter/pom.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.10/druid-spring-boot-starter-1.1.10.jar!/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.10/druid-spring-boot-starter-1.1.10.jar!/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.10/druid-spring-boot-starter-1.1.10.jar!/META-INF/spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/2.0.1.RELEASE/spring-boot-starter-web-2.0.1.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-372" />
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/netflix/feign/feign-okhttp/8.18.0/feign-okhttp-8.18.0.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-service-ucenter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="44" column="55" lean-forward="true" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-service-search/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-service-manage-course/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-service-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cl-log-starter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -948,16 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cl-log-starter/src/main/resources/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1069,10 +971,115 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="342">
-            <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <first_editor relative-caret-position="360">
+            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-log-center/src/test/java/com/cloud/log/LogTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogMqClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/LogCenterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/service/impl/LogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/service/impl/EsLogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/dao/LogDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/controller/LogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/config/AsycTaskExecutorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/config/RabbitmqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/config/ResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/consumer/LogConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#968#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
