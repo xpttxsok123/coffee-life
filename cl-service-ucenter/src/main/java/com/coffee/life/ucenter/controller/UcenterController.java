@@ -1,0 +1,34 @@
+package com.coffee.life.ucenter.controller;
+
+import com.coffee.life.api.ucenter.UcenterControllerApi;
+import com.coffee.life.framework.annotation.LogAnnotation;
+import com.coffee.life.framework.domain.ucenter.ext.XcUserExt;
+import com.coffee.life.ucenter.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * @author jay
+ * @version 1.0
+ **/
+@RestController
+@RequestMapping("/ucenter")
+public class UcenterController implements UcenterControllerApi {
+    @Autowired
+    UserService userService;
+
+    @Override
+    @GetMapping("/getuserext")
+    public XcUserExt getUserext(@RequestParam("username") String username) {
+        return userService.getUserExt(username);
+    }
+
+    @GetMapping("/test")
+    @LogAnnotation(module = "sdfsdfs")
+    public String test() {
+        return "test";
+    }
+}
