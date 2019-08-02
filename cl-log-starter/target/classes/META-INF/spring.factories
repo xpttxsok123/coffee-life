@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.coffee.life.log.starter.LogAutoConfiguration,\
+com.coffee.life.log.starter.LogAop
