@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cl-framework-common/cl-framework-common.iml" filepath="$PROJECT_DIR$/cl-framework-common/cl-framework-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-framework-model/cl-framework-model.iml" filepath="$PROJECT_DIR$/cl-framework-model/cl-framework-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-framework-parent/cl-framework-parent.iml" filepath="$PROJECT_DIR$/cl-framework-parent/cl-framework-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-framework-utils/cl-framework-utils.iml" filepath="$PROJECT_DIR$/cl-framework-utils/cl-framework-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-govern-center/cl-govern-center.iml" filepath="$PROJECT_DIR$/cl-govern-center/cl-govern-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-govern-gateway/cl-govern-gateway.iml" filepath="$PROJECT_DIR$/cl-govern-gateway/cl-govern-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-log-center/cl-log-center.iml" filepath="$PROJECT_DIR$/cl-log-center/cl-log-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-log-starter/cl-log-starter.iml" filepath="$PROJECT_DIR$/cl-log-starter/cl-log-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-service-api/cl-service-api.iml" filepath="$PROJECT_DIR$/cl-service-api/cl-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-service-manage-course/cl-service-manage-course.iml" filepath="$PROJECT_DIR$/cl-service-manage-course/cl-service-manage-course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-service-search/cl-service-search.iml" filepath="$PROJECT_DIR$/cl-service-search/cl-service-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-service-ucenter/cl-service-ucenter.iml" filepath="$PROJECT_DIR$/cl-service-ucenter/cl-service-ucenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-service-ucenter-auth/cl-service-ucenter-auth.iml" filepath="$PROJECT_DIR$/cl-service-ucenter-auth/cl-service-ucenter-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cl-zipkin-server/cl-zipkin-server.iml" filepath="$PROJECT_DIR$/cl-zipkin-server/cl-zipkin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/coffee-life.iml" filepath="$PROJECT_DIR$/.idea/coffee-life.iml" />
+    </modules>
+  </component>
+</project>

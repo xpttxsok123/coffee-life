@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/cl-framework-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cl-framework-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cl-framework-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cl-framework-utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cl-govern-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cl-govern-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cl-log-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cl-log-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cl-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cl-service-manage-course" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cl-service-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cl-service-ucenter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cl-service-ucenter-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cl-zipkin-server" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
