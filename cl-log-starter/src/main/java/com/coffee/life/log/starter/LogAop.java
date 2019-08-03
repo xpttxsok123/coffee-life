@@ -3,16 +3,15 @@ package com.coffee.life.log.starter;
 import com.alibaba.fastjson.JSONObject;
 import com.coffee.life.framework.annotation.LogAnnotation;
 import com.coffee.life.framework.domain.log.Log;
+import com.coffee.life.framework.utils.XcOauth2Util;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import java.io.Serializable;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -27,8 +26,11 @@ public class LogAop {
 
     private static final Logger logger = LoggerFactory.getLogger(LogAop.class);
 
+//    @Autowired
+//    private AmqpTemplate amqpTemplate;
+
     @Autowired
-    private AmqpTemplate amqpTemplate;
+    private XcOauth2Util xcOauth2Util;
 
     /**
      * 环绕带注解 @LogAnnotation的方法做aop
@@ -38,12 +40,10 @@ public class LogAop {
         Log log = new Log();
         log.setCreateTime(new Date());
 
-
-
-        //AppUserUtil.getLoginAppUser();
-        //if (loginAppUser != null) {
-          //  log.setUsername(loginAppUser.getUsername());
-        ///}
+        XcOauth2Util.UserJwt userJwtFromHeader = xcOauth2Util.getUserJwtFromHeader();
+        if(userJwtFromHeader != null){
+            log.setUsername(userJwtFromHeader.getId()+":"+userJwtFromHeader.getUtype()+":"+userJwtFromHeader.getName());
+        }
 
         MethodSignature methodSignature = (MethodSignature) joinPoint.getSignature();
         LogAnnotation logAnnotation = methodSignature.getMethod().getDeclaredAnnotation(LogAnnotation.class);
@@ -57,9 +57,9 @@ public class LogAop {
                 Map<String, Object> params = new HashMap<>();
                 for (int i = 0; i < paramNames.length; i++) {
                     Object value = args[i];
-                    if (value instanceof Serializable) {
+                    //if (value instanceof Serializable) {
                         params.put(paramNames[i], value);
-                    }
+                    //}
                 }
 
                 try {

@@ -26,7 +26,7 @@ public class Log implements Serializable {
 	private String module;
 	/** 参数值 */
 	private String params;
-	private String remark;
+	private String remark = "SUCCESS";
 	/** 是否执行成功 */
 	private Boolean flag;
 	private Date createTime;

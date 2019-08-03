@@ -29,6 +29,8 @@
     <orderEntry type="module" module-name="cl-framework-common" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.0.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-json:2.0.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.5" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.5" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.5" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.5" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.5" level="project" />
@@ -123,39 +125,13 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.yaml:snakeyaml:1.19" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.0.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.8.13" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-amqp:2.0.1.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-messaging:5.0.5.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.amqp:spring-rabbit:2.0.3.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.amqp:spring-amqp:2.0.3.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: com.rabbitmq:amqp-client:5.1.2" level="project" />
-    <orderEntry type="library" name="Maven: com.rabbitmq:http-client:2.0.1.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-webflux:5.0.5.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: io.projectreactor:reactor-core:3.1.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.5" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.9" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.5" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.5" level="project" />
-    <orderEntry type="library" name="Maven: io.projectreactor.ipc:reactor-netty:0.7.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.1.23.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.23.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.23.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.1.23.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.23.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.23.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-handler-proxy:4.1.23.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-codec-socks:4.1.23.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-transport-native-epoll:4.1.23.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.23.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty-transport-native-unix-common:4.1.23.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-web:5.0.5.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.retry:spring-retry:1.2.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security.oauth:spring-security-oauth2:2.3.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.0.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-core:5.0.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.0.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.0.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.0.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:5.0.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:5.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-config:5.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-web:5.0.4.RELEASE" level="project" />

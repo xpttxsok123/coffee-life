@@ -2,6 +2,8 @@ package com.coffee.life.auth.controller;
 
 import com.coffee.life.api.auth.AuthControllerApi;
 import com.coffee.life.auth.service.AuthService;
+import com.coffee.life.framework.annotation.LogAnnotation;
+import com.coffee.life.framework.client.XcServiceList;
 import com.coffee.life.framework.domain.ucenter.ext.AuthToken;
 import com.coffee.life.framework.domain.ucenter.request.LoginRequest;
 import com.coffee.life.framework.domain.ucenter.response.AuthCode;
@@ -46,6 +48,7 @@ public class AuthController implements AuthControllerApi {
 
     @Override
     @PostMapping("/userlogin")
+    @LogAnnotation(module = XcServiceList.CL_SERVICE_UCENTER_AUTH)
     public LoginResult login(LoginRequest loginRequest) {
         if(loginRequest == null || StringUtils.isEmpty(loginRequest.getUsername())){
             ExceptionCast.cast(AuthCode.AUTH_USERNAME_NONE);

@@ -8,24 +8,27 @@ import com.coffee.life.framework.domain.course.CoursePub;
 import com.coffee.life.framework.domain.course.Teachplan;
 import com.coffee.life.framework.domain.course.TeachplanMedia;
 import com.coffee.life.framework.domain.course.TeachplanMediaPub;
-import com.github.pagehelper.Page;
-import com.github.pagehelper.PageHelper;
-import com.coffee.life.framework.domain.cms.CmsPage;
-import com.coffee.life.framework.domain.cms.response.CmsPageResult;
-import com.coffee.life.framework.domain.cms.response.CmsPostPageResult;
 import com.coffee.life.framework.domain.course.ext.CourseInfo;
 import com.coffee.life.framework.domain.course.ext.CourseView;
 import com.coffee.life.framework.domain.course.ext.TeachplanNode;
 import com.coffee.life.framework.domain.course.request.CourseListRequest;
 import com.coffee.life.framework.domain.course.response.CourseCode;
-import com.coffee.life.framework.domain.course.response.CoursePublishResult;
 import com.coffee.life.framework.exception.ExceptionCast;
 import com.coffee.life.framework.model.response.CommonCode;
 import com.coffee.life.framework.model.response.QueryResponseResult;
 import com.coffee.life.framework.model.response.QueryResult;
 import com.coffee.life.framework.model.response.ResponseResult;
-import com.coffee.life.manage.course.client.CmsPageClient;
-import com.coffee.life.manage.course.dao.*;
+import com.coffee.life.manage.course.dao.CourseBaseRepository;
+import com.coffee.life.manage.course.dao.CourseMapper;
+import com.coffee.life.manage.course.dao.CourseMarketRepository;
+import com.coffee.life.manage.course.dao.CoursePicRepository;
+import com.coffee.life.manage.course.dao.CoursePubRepository;
+import com.coffee.life.manage.course.dao.TeachplanMapper;
+import com.coffee.life.manage.course.dao.TeachplanMediaPubRepository;
+import com.coffee.life.manage.course.dao.TeachplanMediaRepository;
+import com.coffee.life.manage.course.dao.TeachplanRepository;
+import com.github.pagehelper.Page;
+import com.github.pagehelper.PageHelper;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -70,9 +73,6 @@ public class CourseService {
 
     @Autowired
     CourseMapper courseMapper;
-
-    @Autowired
-    CmsPageClient cmsPageClient;
 
     @Value("${course-publish.dataUrlPre}")
     private String publish_dataUrlPre;
@@ -239,75 +239,7 @@ public class CourseService {
         ExceptionCast.cast(CourseCode.COURSE_DENIED_DELETE);
         return null;
     }
-    //课程预览
-    public CoursePublishResult preview(String id) {
-        //查询课程
-        CourseBase courseBaseById = this.findCourseBaseById(id);
-        //请求cms添加页面
-        //准备cmsPage信息
-        CmsPage cmsPage = new CmsPage();
-        cmsPage.setSiteId(publish_siteId);//站点id
-        cmsPage.setDataUrl(publish_dataUrlPre+id);//数据模型url
-        cmsPage.setPageName(id+".html");//页面名称
-        cmsPage.setPageAliase(courseBaseById.getName());//页面别名，就是课程名称
-        cmsPage.setPagePhysicalPath(publish_page_physicalpath);//页面物理路径
-        cmsPage.setPageWebPath(publish_page_webpath);//页面webpath
-        cmsPage.setTemplateId(publish_templateId);//页面模板id
 
-        //远程调用cms
-        CmsPageResult cmsPageResult = cmsPageClient.saveCmsPage(cmsPage);
-        if(!cmsPageResult.isSuccess()){
-            return new CoursePublishResult(CommonCode.FAIL,null);
-        }
-
-        CmsPage cmsPage1 = cmsPageResult.getCmsPage();
-        String pageId = cmsPage1.getPageId();
-        //拼装页面预览的url
-        String url = previewUrl+pageId;
-        //返回CoursePublishResult对象（当中包含了页面预览的url）
-        return new CoursePublishResult(CommonCode.SUCCESS,url);
-    }
-
-    //课程发布
-    @Transactional
-    public CoursePublishResult publish(String id) {
-        //查询课程
-        CourseBase courseBaseById = this.findCourseBaseById(id);
-
-        //准备页面信息
-        CmsPage cmsPage = new CmsPage();
-        cmsPage.setSiteId(publish_siteId);//站点id
-        cmsPage.setDataUrl(publish_dataUrlPre+id);//数据模型url
-        cmsPage.setPageName(id+".html");//页面名称
-        cmsPage.setPageAliase(courseBaseById.getName());//页面别名，就是课程名称
-        cmsPage.setPagePhysicalPath(publish_page_physicalpath);//页面物理路径
-        cmsPage.setPageWebPath(publish_page_webpath);//页面webpath
-        cmsPage.setTemplateId(publish_templateId);//页面模板id
-        //调用cms一键发布接口将课程详情页面发布到服务器
-        CmsPostPageResult cmsPostPageResult = cmsPageClient.postPageQuick(cmsPage);
-        if(!cmsPostPageResult.isSuccess()){
-            return new CoursePublishResult(CommonCode.FAIL,null);
-        }
-
-        //保存课程的发布状态为“已发布”
-        CourseBase courseBase = this.saveCoursePubState(id);
-        if(courseBase == null){
-            return new CoursePublishResult(CommonCode.FAIL,null);
-        }
-
-        //保存课程索引信息
-        //先创建一个coursePub对象
-        CoursePub coursePub = createCoursePub(id);
-        //将coursePub对象保存到数据库
-        saveCoursePub(id,coursePub);
-        //缓存课程的信息
-        //...
-        //得到页面的url
-        String pageUrl = cmsPostPageResult.getPageUrl();
-        //向teachplanMediaPub中保存课程媒资信息
-        saveTeachplanMediaPub(id);
-        return new CoursePublishResult(CommonCode.SUCCESS,pageUrl);
-    }
 
     //向teachplanMediaPub中保存课程媒资信息
     private void saveTeachplanMediaPub(String courseId){

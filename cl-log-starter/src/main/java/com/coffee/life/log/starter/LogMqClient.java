@@ -4,7 +4,6 @@ import com.coffee.life.framework.domain.log.Log;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.amqp.core.AmqpTemplate;
 
 import java.util.Date;
 import java.util.concurrent.CompletableFuture;
@@ -17,11 +16,11 @@ public class LogMqClient {
 
     private static final Logger logger = LoggerFactory.getLogger(LogMqClient.class);
 
-    private AmqpTemplate amqpTemplate;
+//    private AmqpTemplate amqpTemplate;
 
-    public LogMqClient(AmqpTemplate amqpTemplate) {
-        this.amqpTemplate = amqpTemplate;
-    }
+//    public LogMqClient(AmqpTemplate amqpTemplate) {
+//        this.amqpTemplate = amqpTemplate;
+//    }
 
     public void sendLogMsg(String module, String username, String params, String remark, boolean flag) {
         CompletableFuture.runAsync(() -> {

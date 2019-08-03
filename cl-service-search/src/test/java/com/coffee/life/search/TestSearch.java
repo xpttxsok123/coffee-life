@@ -1,3 +1,4 @@
+/*
 package com.coffee.life.search;
 
 import org.elasticsearch.action.search.SearchRequest;
@@ -27,10 +28,12 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Map;
 
+*/
 /**
  * @author jay
  * @version 1.0
- **/
+ **//*
+
 @SpringBootTest
 @RunWith(SpringRunner.class)
 public class TestSearch {
@@ -608,3 +611,4 @@ public class TestSearch {
 
     }
 }
+*/
