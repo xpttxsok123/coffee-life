@@ -70,7 +70,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>1.5.9.RELEASE</version>
                 <configuration>
-                    <mainClass>com.coffee.life.manage.course.ManageCourseApplication</mainClass>
+                    <mainClass>com.coffee.life.govern.gateway.GatewayApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>
