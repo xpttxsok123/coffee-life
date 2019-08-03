@@ -31,6 +31,7 @@
         <option value="$PROJECT_DIR$/cl-zipkin-server/pom.xml" />
         <option value="$PROJECT_DIR$/cl-log-center/pom.xml" />
         <option value="$PROJECT_DIR$/cl-log-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>

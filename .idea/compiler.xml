@@ -14,18 +14,18 @@
         <module name="xc-service-api" />
         <module name="cl-govern-gateway" />
         <module name="cl-service-api" />
+        <module name="xc-service-search" />
         <module name="cl-service-ucenter-auth" />
         <module name="cl-zipkin-server" />
-        <module name="xc-govern-gateway" />
         <module name="cl-service-manage-course" />
         <module name="xc-govern-center" />
         <module name="cl-log-starter" />
         <module name="cl-framework-common" />
         <module name="cl-govern-center" />
         <module name="cl-framework-model" />
-        <module name="cl-framework-utils" />
         <module name="cl-service-ucenter" />
-        <module name="xc-service-search" />
+        <module name="cl-framework-utils" />
+        <module name="xc-govern-gateway" />
         <module name="cl-service-search" />
         <module name="xc-framework-common" />
       </profile>
@@ -45,6 +45,7 @@
       <module name="cl-service-ucenter" target="1.8" />
       <module name="cl-service-ucenter-auth" target="1.8" />
       <module name="cl-zipkin-server" target="1.8" />
+      <module name="coffee-life" target="1.5" />
       <module name="test-fastdfs" target="1.8" />
       <module name="test-freemarker" target="1.8" />
       <module name="xc-framework-common" target="1.8" />

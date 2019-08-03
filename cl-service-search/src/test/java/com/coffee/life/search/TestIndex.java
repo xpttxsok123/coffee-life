@@ -1,3 +1,4 @@
+/*
 package com.coffee.life.search;
 
 import org.elasticsearch.action.DocWriteResponse;
@@ -26,10 +27,12 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+*/
 /**
  * @author jay
  * @version 1.0
- **/
+ **//*
+
 @SpringBootTest
 @RunWith(SpringRunner.class)
 public class TestIndex {
@@ -127,3 +130,4 @@ public class TestIndex {
         System.out.println(sourceAsMap);
     }
 }
+*/

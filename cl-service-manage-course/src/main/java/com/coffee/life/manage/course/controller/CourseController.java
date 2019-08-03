@@ -27,6 +27,11 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/course")
 public class CourseController extends BaseController implements CourseControllerApi {
 
+    @Override
+    public CoursePublishResult preview(String id) {
+        return null;
+    }
+
     @Autowired
     CourseService courseService;
 
@@ -72,17 +77,11 @@ public class CourseController extends BaseController implements CourseController
         return courseService.getCoruseView(id);
     }
 
-    @Override
-    @PostMapping("/preview/{id}")
-    public CoursePublishResult preview(@PathVariable("id") String id) {
-        return courseService.preview(id);
-
-    }
 
     @Override
     @PostMapping("/publish/{id}")
     public CoursePublishResult publish(@PathVariable("id") String id) {
-        return courseService.publish(id);
+        return null;
     }
 
     @Override
