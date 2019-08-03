@@ -1,27 +1,0 @@
-server:
-  port: 9000
-
-
-management:
-   metrics:
-     web:
-       server:
-         autoTimeRequests: false
-eureka:
-  client:
-    registerWithEureka: true #服务注册开关
-    fetchRegistry: true #服务发现开关
-    serviceUrl: #Eureka客户端与Eureka服务端进行交互的地址，多个中间用逗号分隔
-      defaultZone: ${EUREKA_SERVER:http://localhost:50101/eureka/,http://localhost:50102/eureka/}
-spring:
-  application:
-    name: xc-zipkin-server
-
-
-#zipkin:
-#   storage:
-#     type: elasticsearch
-#     elasticsearch:
-#       cluster: xpMac_es
-#       hosts: http://localhost:9200
-#       index: zipkin

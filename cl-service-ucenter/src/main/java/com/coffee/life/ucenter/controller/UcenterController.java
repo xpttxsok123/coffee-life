@@ -2,6 +2,7 @@ package com.coffee.life.ucenter.controller;
 
 import com.coffee.life.api.ucenter.UcenterControllerApi;
 import com.coffee.life.framework.annotation.LogAnnotation;
+import com.coffee.life.framework.client.XcServiceList;
 import com.coffee.life.framework.domain.ucenter.ext.XcUserExt;
 import com.coffee.life.ucenter.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,8 +28,8 @@ public class UcenterController implements UcenterControllerApi {
     }
 
     @GetMapping("/test")
-    @LogAnnotation(module = "sdfsdfs")
-    public String test() {
+    @LogAnnotation(module = XcServiceList.CL_SERVICE_UCENTER)
+    public String test(@RequestParam("name") String name) {
         return "test";
     }
 }

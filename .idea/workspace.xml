@@ -2,11 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d854ce92-e816-4113-af47-4380bf271914" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cl-framework-utils/src/main/java/com/coffee/life/framework/utils/AppUserUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cl-log-center/src/test/java/com/cloud/log/LogTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-framework-model/cl-framework-model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cl-framework-model/cl-framework-model.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-framework-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cl-framework-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-framework-model/src/main/java/com/coffee/life/framework/domain/log/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/cl-framework-model/src/main/java/com/coffee/life/framework/domain/log/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/log/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/cl-framework-model/target/classes/com/coffee/life/framework/domain/log/Log.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-framework-utils/cl-framework-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cl-framework-utils/cl-framework-utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-framework-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cl-framework-utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-framework-utils/src/main/java/com/coffee/life/framework/utils/XcOauth2Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/cl-framework-utils/src/main/java/com/coffee/life/framework/utils/XcOauth2Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-govern-gateway/cl-govern-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cl-govern-gateway/cl-govern-gateway.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-govern-gateway/src/main/java/com/coffee/life/govern/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cl-govern-gateway/src/main/java/com/coffee/life/govern/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-govern-gateway/target/classes/com/coffee/life/govern/gateway/GatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/cl-govern-gateway/target/classes/com/coffee/life/govern/gateway/GatewayApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-govern-gateway/target/classes/com/coffee/life/govern/gateway/filter/InternalURIAccessFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/cl-govern-gateway/target/classes/com/coffee/life/govern/gateway/filter/InternalURIAccessFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-log-center/cl-log-center.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cl-log-center/cl-log-center.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-log-starter/cl-log-starter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cl-log-starter/cl-log-starter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-log-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cl-log-starter/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAutoConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogMqClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogMqClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-log-starter/target/classes/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/cl-log-starter/target/classes/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-log-starter/target/classes/com/coffee/life/log/starter/LogAop.class" beforeDir="false" afterPath="$PROJECT_DIR$/cl-log-starter/target/classes/com/coffee/life/log/starter/LogAop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-log-starter/target/classes/com/coffee/life/log/starter/LogAutoConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/cl-log-starter/target/classes/com/coffee/life/log/starter/LogAutoConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-log-starter/target/classes/com/coffee/life/log/starter/LogMqClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/cl-log-starter/target/classes/com/coffee/life/log/starter/LogMqClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-service-api/cl-service-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cl-service-api/cl-service-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-service-ucenter-auth/cl-service-ucenter-auth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/cl-service-ucenter-auth.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-service-ucenter-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-service-ucenter-auth/src/main/java/com/coffee/life/auth/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/src/main/java/com/coffee/life/auth/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-service-ucenter-auth/src/main/java/com/coffee/life/auth/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/src/main/java/com/coffee/life/auth/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-service-ucenter-auth/target/classes/com/coffee/life/auth/service/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cl-service-ucenter-auth/target/classes/com/coffee/life/auth/service/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-service-ucenter/src/main/java/com/coffee/life/ucenter/controller/UcenterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cl-service-ucenter/src/main/java/com/coffee/life/ucenter/controller/UcenterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl-service-ucenter/target/classes/com/coffee/life/ucenter/controller/UcenterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cl-service-ucenter/target/classes/com/coffee/life/ucenter/controller/UcenterController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cl-service-api/target/" />
     <ignored path="$PROJECT_DIR$/cl-service-ucenter-auth/target/" />
@@ -69,11 +95,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>spring-cloud-starter-security</find>
-      <find>spring-cloud-starter-oauth2</find>
-      <find>spring-boot-starter-data-redis</find>
-      <find>spring-cloud-starter-openfeign</find>
-      <find>spring-orm</find>
       <find>comm</find>
       <find>spring-boot-starter-web</find>
       <find>test</find>
@@ -99,6 +120,11 @@
       <find>27017</find>
       <find>mong</find>
       <find>b74caa26-ef8a-4642-8932-e42c0c9b15da</find>
+      <find>老师</find>
+      <find>oauth</find>
+      <find>pass</find>
+      <find>passw</find>
+      <find>password</find>
     </findStrings>
     <replaceStrings>
       <replace>cl-framework-parent</replace>
@@ -116,18 +142,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/service/LogService.java" />
-        <option value="$PROJECT_DIR$/cl-framework-common/src/main/java/com/coffee/life/framework/utils/PageUtil.java" />
-        <option value="$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/dao/LogDao.java" />
-        <option value="$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/consumer/LogConsumer.java" />
-        <option value="$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/config/RabbitmqConfig.java" />
-        <option value="$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/config/ElasticSearchConfig.java" />
-        <option value="$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/config/ResourceServerConfig.java" />
-        <option value="$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/controller/LogController.java" />
         <option value="$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/service/impl/LogServiceImpl.java" />
         <option value="$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/service/impl/EsLogServiceImpl.java" />
         <option value="$PROJECT_DIR$/cl-framework-common/src/main/java/com/coffee/life/framework/annotation/LogAnnotation.java" />
@@ -138,22 +161,16 @@
         <option value="$PROJECT_DIR$/cl-govern-center/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cl-govern-center/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/cl-framework-utils/src/main/java/com/coffee/life/framework/utils/AppUserUtil.java" />
-        <option value="$PROJECT_DIR$/cl-service-ucenter-auth/src/main/java/com/coffee/life/auth/controller/AuthController.java" />
-        <option value="$PROJECT_DIR$/cl-service-ucenter/src/main/java/com/coffee/life/ucenter/controller/UcenterController.java" />
         <option value="$PROJECT_DIR$/cl-service-ucenter-auth/src/main/java/com/coffee/life/auth/config/AuthorizationServerConfig.java" />
         <option value="$PROJECT_DIR$/cl-service-ucenter-auth/src/main/java/com/coffee/life/auth/config/ResourceServerConfig.java" />
         <option value="$PROJECT_DIR$/cl-service-ucenter-auth/src/main/java/com/coffee/life/auth/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/cl-service-ucenter-auth/src/main/java/com/coffee/life/auth/UcenterAuthApplication.java" />
         <option value="$PROJECT_DIR$/cl-service-ucenter-auth/src/test/java/com/coffee/life/auth/TestClient.java" />
         <option value="$PROJECT_DIR$/cl-service-ucenter/pom.xml" />
-        <option value="$PROJECT_DIR$/cl-service-ucenter-auth/pom.xml" />
         <option value="$PROJECT_DIR$/cl-service-search/pom.xml" />
         <option value="$PROJECT_DIR$/cl-service-manage-course/pom.xml" />
         <option value="$PROJECT_DIR$/cl-service-api/pom.xml" />
-        <option value="$PROJECT_DIR$/cl-log-starter/pom.xml" />
         <option value="$PROJECT_DIR$/cl-log-center/pom.xml" />
-        <option value="$PROJECT_DIR$/cl-framework-utils/pom.xml" />
         <option value="$PROJECT_DIR$/cl-framework-utils/src/main/java/com/coffee/life/framework/utils/PageUtil.java" />
         <option value="$PROJECT_DIR$/cl-framework-parent/pom.xml" />
         <option value="$PROJECT_DIR$/cl-framework-common/pom.xml" />
@@ -168,19 +185,98 @@
         <option value="$PROJECT_DIR$/cl-framework-utils/.gitignore" />
         <option value="$PROJECT_DIR$/cl-framework-common/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAop.java" />
-        <option value="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/cl-govern-gateway/src/main/java/com/coffee/life/govern/gateway/filter/InternalURIAccessFilter.java" />
+        <option value="$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/cl-service-ucenter-auth/src/main/java/com/coffee/life/auth/service/UserDetailsServiceImpl.java" />
         <option value="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogMqClient.java" />
+        <option value="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/cl-log-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/cl-framework-model/pom.xml" />
+        <option value="$PROJECT_DIR$/cl-govern-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cl-framework-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/cl-framework-utils/src/main/java/com/coffee/life/framework/utils/XcOauth2Util.java" />
+        <option value="$PROJECT_DIR$/cl-framework-utils/src/main/java/com/coffee/life/framework/utils/AppUserUtil.java" />
+        <option value="$PROJECT_DIR$/cl-govern-gateway/src/main/java/com/coffee/life/govern/gateway/GatewayApplication.java" />
+        <option value="$PROJECT_DIR$/cl-framework-model/src/main/java/com/coffee/life/framework/domain/log/Log.java" />
+        <option value="$PROJECT_DIR$/cl-service-ucenter-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/cl-service-ucenter-auth/src/main/java/com/coffee/life/auth/controller/AuthController.java" />
+        <option value="$PROJECT_DIR$/cl-service-ucenter/src/main/java/com/coffee/life/ucenter/controller/UcenterController.java" />
+        <option value="$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAop.java" />
       </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cl-govern-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cl-govern-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cl-govern-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.coffee.life:cl-framework-model:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cl-govern-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.coffee.life:cl-framework-model:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="com.coffee.life:cl-framework-utils:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cl-govern-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.coffee.life:cl-framework-common:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cl-govern-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-data-redis:2.0.1.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cl-govern-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.squareup.okhttp3:okhttp:3.8.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cl-govern-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.netflix.feign:feign-okhttp:8.18.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cl-govern-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-test:2.0.1.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cl-govern-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.cloud:spring-cloud-starter-netflix-zuul:2.0.1.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cl-govern-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:2.0.1.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="979" />
@@ -249,11 +345,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.coffee.life.framework.utils" />
       <recent name="com.coffee.life.framework.annotation" />
       <recent name="com.coffee.life.log.center.config" />
       <recent name="com.coffee.life.framework.model.request" />
       <recent name="com.coffee.life.framework.domain.log" />
-      <recent name="com.coffee.life.govern.gateway.filter" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -279,7 +375,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.25377834" />
+    <option name="contentProportion" value="0.28778338" />
   </component>
   <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="PasswordTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -438,8 +534,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ManageCourseApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.ManageCourseApplication" />
         <item itemvalue="JUnit.PasswordTest.testPassword" />
         <item itemvalue="JUnit.PasswordTest.main" />
         <item itemvalue="Application.PasswordTest" />
@@ -478,6 +574,8 @@
       <workItem from="1564750226588" duration="159000" />
       <workItem from="1564750402223" duration="311000" />
       <workItem from="1564750717435" duration="1824000" />
+      <workItem from="1564755188973" duration="15000" />
+      <workItem from="1564803185015" duration="9617000" />
     </task>
     <task id="LOCAL-00001" summary="delete readme">
       <created>1564750274693</created>
@@ -507,7 +605,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564751907680</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="delete init project">
+      <created>1564754407240</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564754407240</updated>
+    </task>
+    <task id="LOCAL-00006" summary="delete init project">
+      <created>1564754539816</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564754539816</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -543,12 +655,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290589000" />
+    <option name="totallyTimeSpent" value="300946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="979" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6332916" visible="true" weight="0.27278325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6332916" visible="true" weight="0.25246304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -558,21 +670,21 @@
       <window_info id="Web" order="7" sideWeight="0.12227074" side_tool="true" weight="0.3633005" />
       <window_info id="EJB" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.4787234" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.47789726" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.48864993" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3321386" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.5937873" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.81157637" weight="0.3679809" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.18842365" side_tool="true" visible="true" weight="0.3679809" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.80972904" weight="0.6594982" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5006158" side_tool="true" weight="0.47311828" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.47550777" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3297491" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49938422" weight="0.3297491" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.47311828" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49938422" visible="true" weight="0.15292712" />
       <window_info anchor="bottom" id="JProfiler" order="16" />
       <window_info anchor="bottom" id="Statistic" order="17" weight="0.48626044" />
       <window_info anchor="right" id="Coverage" order="0" show_stripe_button="false" sideWeight="0.8128898" side_tool="true" weight="0.3294335" />
@@ -586,7 +698,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.3294335" />
-      <window_info anchor="right" id="Maven" order="11" sideWeight="0.18711019" weight="0.023399014" />
+      <window_info anchor="right" id="Maven" order="11" sideWeight="0.18711019" weight="0.49076355" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,12 +733,6 @@
           <properties />
           <option name="timeStamp" value="56" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cl-service-ucenter/src/main/java/com/coffee/life/ucenter/controller/UcenterController.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="95" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -642,443 +748,671 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>authenticationToken.getDetails()</expression-string>
+        <expression-string>setParams</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>authentication</expression-string>
+        <expression-string>value</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>principal.</expression-string>
+        <expression-string>userJwt</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>principal</expression-string>
+        <expression-string>this.getUserJwtFromHeader(request)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>authUrl</expression-string>
+        <expression-string>new XcOauth2Util().getUserJwtFromHeader(null)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>uri</expression-string>
+        <expression-string>new XcOauth2Util().getUserJwtFromHeader()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>log</expression-string>
+        <expression-string>XcOauth2Util.UserJwt userJwtFromHeader = xcOauth2Util.getUserJwtFromHeader(null);</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>getProperty(&quot;os.name&quot;)</expression-string>
+        <expression-string>Oauth2Util.getJwtClaimsFromHeader(null)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>com.coffee.life.framework.utils.Oauth2Util</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Oauth2Util.getJwtClaimsFromHeader(request)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>AuthorityUtils.commaSeparatedStringToAuthorityList(user_permission_string)</expression-string>
+        <expression-string>Oauth2Util.getJwtClaimsFromHeader()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cl-log-starter/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cl-govern-gateway/cl-govern-gateway.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-framework-model/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="279">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cl-log-center/pom.xml">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="-2488" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-framework-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1231">
+          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cl-service-ucenter-auth/pom.xml">
+    <entry file="uml://MAVEN/com.coffee.life:cl-govern-gateway:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.coffee.life:cl-govern-gateway:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.coffee.life:cl-govern-gateway:1.0-SNAPSHOT</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.coffee.life:cl-framework-utils:jar:1.0-SNAPSHOT</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.coffee.life:cl-framework-utils:jar:1.0-SNAPSHOT/javax.servlet:javax.servlet-api:jar:3.1.0</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.coffee.life:cl-framework-utils:jar:1.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.coffee.life:cl-framework-utils:jar:1.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.coffee.life:cl-framework-utils:jar:1.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.coffee.life:cl-framework-utils:jar:1.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.coffee.life:cl-framework-utils:jar:1.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0/org.apache.logging.log4j:log4j-api:jar:2.10.0</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.coffee.life:cl-framework-utils:jar:1.0-SNAPSHOT/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.coffee.life:cl-framework-utils:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-jwt:jar:1.0.8.RELEASE</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.coffee.life:cl-framework-utils:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-jwt:jar:1.0.8.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.56</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.coffee.life:cl-framework-utils:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-jwt:jar:1.0.8.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.56/org.bouncycastle:bcprov-jdk15on:jar:1.56</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.coffee.life:cl-framework-utils:jar:1.0-SNAPSHOT/org.springframework.security:spring-security-core:jar:5.0.4.RELEASE</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.coffee.life:cl-framework-utils:jar:1.0-SNAPSHOT/org.springframework.security.oauth:spring-security-oauth2:jar:2.3.4.RELEASE</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.coffee.life:cl-framework-utils:jar:1.0-SNAPSHOT/org.springframework.security.oauth:spring-security-oauth2:jar:2.3.4.RELEASE/org.springframework.security:spring-security-config:jar:5.0.4.RELEASE</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.coffee.life:cl-framework-utils:jar:1.0-SNAPSHOT/org.springframework.security.oauth:spring-security-oauth2:jar:2.3.4.RELEASE/org.springframework.security:spring-security-web:jar:5.0.4.RELEASE</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.coffee.life:cl-framework-utils:jar:1.0-SNAPSHOT/org.springframework.security.oauth:spring-security-oauth2:jar:2.3.4.RELEASE/commons-codec:commons-codec:jar:1.10</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.coffee.life:cl-framework-utils:jar:1.0-SNAPSHOT/org.springframework.security.oauth:spring-security-oauth2:jar:2.3.4.RELEASE/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.coffee.life:cl-framework-utils:jar:1.0-SNAPSHOT/org.springframework.security.oauth:spring-security-oauth2:jar:2.3.4.RELEASE/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13/org.codehaus.jackson:jackson-core-asl:jar:1.9.13</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/io.springfox:springfox-swagger2:jar:2.7.0</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-annotations:jar:1.5.13</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-models:jar:1.5.13</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0/io.springfox:springfox-core:jar:2.7.0</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-schema:jar:2.7.0</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-swagger-common:jar:2.7.0</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0/org.reflections:reflections:jar:0.9.11</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0/org.reflections:reflections:jar:0.9.11/org.javassist:javassist:jar:3.21.0-GA</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/io.springfox:springfox-swagger2:jar:2.7.0/com.fasterxml:classmate:jar:1.3.4</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/io.springfox:springfox-swagger2:jar:2.7.0/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/io.springfox:springfox-swagger2:jar:2.7.0/org.mapstruct:mapstruct:jar:1.1.0.Final</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/org.projectlombok:lombok:jar:1.16.16</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-commons:jar:2.0.6.RELEASE</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-commons:jar:2.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.5.RELEASE</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-mongodb:jar:2.0.6.RELEASE</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-mongodb:jar:2.0.6.RELEASE/org.springframework:spring-tx:jar:5.0.5.RELEASE</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-mongodb:jar:2.0.6.RELEASE/org.springframework:spring-context:jar:5.0.5.RELEASE</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-mongodb:jar:2.0.6.RELEASE/org.springframework:spring-expression:jar:5.0.5.RELEASE</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/org.springframework.data:spring-data-mongodb:jar:2.0.6.RELEASE/org.mongodb:mongo-java-driver:jar:3.6.3</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/org.hibernate:hibernate-core:jar:5.2.16.Final</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/org.hibernate:hibernate-core:jar:5.2.16.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/org.hibernate:hibernate-core:jar:5.2.16.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/org.hibernate:hibernate-core:jar:5.2.16.Final/org.javassist:javassist:jar:3.22.0-GA</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/org.hibernate:hibernate-core:jar:5.2.16.Final/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/org.hibernate:hibernate-core:jar:5.2.16.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.1.Final</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/org.hibernate:hibernate-core:jar:5.2.16.Final/org.jboss:jandex:jar:2.0.3.Final</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/org.hibernate:hibernate-core:jar:5.2.16.Final/dom4j:dom4j:jar:1.6.1</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/org.hibernate:hibernate-core:jar:5.2.16.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.google.guava:guava:jar:24.0-jre</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.google.guava:guava:jar:24.0-jre/com.google.code.findbugs:jsr305:jar:1.3.9</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.google.guava:guava:jar:24.0-jre/org.checkerframework:checker-compat-qual:jar:2.0.0</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.google.guava:guava:jar:24.0-jre/com.google.errorprone:error_prone_annotations:jar:2.1.3</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.google.guava:guava:jar:24.0-jre/com.google.j2objc:j2objc-annotations:jar:1.1</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/com.google.guava:guava:jar:24.0-jre/org.codehaus.mojo:animal-sniffer-annotations:jar:1.14</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/commons-io:commons-io:jar:2.6</node>
+            <node x="" y="">com.coffee.life:cl-framework-model:jar:1.0-SNAPSHOT/org.apache.commons:commons-lang3:jar:3.6</node>
+            <node x="" y="">com.coffee.life:cl-framework-common:jar:1.0-SNAPSHOT</node>
+            <node x="" y="">com.coffee.life:cl-framework-common:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.1.RELEASE</node>
+            <node x="" y="">com.coffee.life:cl-framework-common:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-openfeign-core:jar:2.0.1.RELEASE</node>
+            <node x="" y="">com.coffee.life:cl-framework-common:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:2.0.1.RELEASE</node>
+            <node x="" y="">com.coffee.life:cl-framework-common:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:2.0.1.RELEASE/org.springframework.security:spring-security-crypto:jar:5.0.4.RELEASE</node>
+            <node x="" y="">com.coffee.life:cl-framework-common:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.1.RELEASE/io.github.openfeign:feign-core:jar:9.5.1</node>
+            <node x="" y="">com.coffee.life:cl-framework-common:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.1.RELEASE/io.github.openfeign:feign-slf4j:jar:9.5.1</node>
+            <node x="" y="">com.coffee.life:cl-framework-common:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.1.RELEASE/io.github.openfeign:feign-hystrix:jar:9.5.1</node>
+            <node x="" y="">com.coffee.life:cl-framework-common:jar:1.0-SNAPSHOT/org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.1.RELEASE/io.github.openfeign:feign-java8:jar:9.5.1</node>
+            <node x="" y="">com.coffee.life:cl-framework-common:jar:1.0-SNAPSHOT/com.alibaba:fastjson:jar:1.2.30</node>
+            <node x="" y="">com.coffee.life:cl-framework-common:jar:1.0-SNAPSHOT/org.apache.commons:commons-collections4:jar:4.1</node>
+            <node x="" y="">com.coffee.life:cl-framework-common:jar:1.0-SNAPSHOT/mysql:mysql-connector-java:jar:5.1.45</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.yaml:snakeyaml:jar:1.19</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.5</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.5</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.5</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.28</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.28</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.28</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework:spring-web:jar:5.0.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework:spring-webmvc:jar:5.0.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework:spring-webmvc:jar:5.0.5.RELEASE/org.springframework:spring-aop:jar:5.0.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.0.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.0.6.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.0.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.0.6.RELEASE/org.springframework:spring-oxm:jar:5.0.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.0.6.RELEASE/org.springframework:spring-context-support:jar:5.0.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.1.RELEASE/io.lettuce:lettuce-core:jar:5.0.3.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.1.RELEASE/io.lettuce:lettuce-core:jar:5.0.3.RELEASE/io.projectreactor:reactor-core:jar:3.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.1.RELEASE/io.lettuce:lettuce-core:jar:5.0.3.RELEASE/io.projectreactor:reactor-core:jar:3.1.6.RELEASE/org.reactivestreams:reactive-streams:jar:1.0.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.1.RELEASE/io.lettuce:lettuce-core:jar:5.0.3.RELEASE/io.netty:netty-common:jar:4.1.23.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.1.RELEASE/io.lettuce:lettuce-core:jar:5.0.3.RELEASE/io.netty:netty-transport:jar:4.1.23.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.1.RELEASE/io.lettuce:lettuce-core:jar:5.0.3.RELEASE/io.netty:netty-transport:jar:4.1.23.Final/io.netty:netty-buffer:jar:4.1.23.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.1.RELEASE/io.lettuce:lettuce-core:jar:5.0.3.RELEASE/io.netty:netty-transport:jar:4.1.23.Final/io.netty:netty-resolver:jar:4.1.23.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.1.RELEASE/io.lettuce:lettuce-core:jar:5.0.3.RELEASE/io.netty:netty-handler:jar:4.1.23.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-redis:jar:2.0.1.RELEASE/io.lettuce:lettuce-core:jar:5.0.3.RELEASE/io.netty:netty-handler:jar:4.1.23.Final/io.netty:netty-codec:jar:4.1.23.Final</node>
+            <node x="" y="">com.squareup.okhttp3:okhttp:jar:3.8.1</node>
+            <node x="" y="">com.squareup.okhttp3:okhttp:jar:3.8.1/com.squareup.okio:okio:jar:1.13.0</node>
+            <node x="" y="">com.netflix.feign:feign-okhttp:jar:8.18.0</node>
+            <node x="" y="">com.netflix.feign:feign-okhttp:jar:8.18.0/com.netflix.feign:feign-core:jar:8.18.0</node>
+            <node x="" y="">com.netflix.feign:feign-okhttp:jar:8.18.0/com.netflix.feign:feign-core:jar:8.18.0/org.jvnet:animal-sniffer-annotation:jar:1.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-test:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/junit:junit:jar:4.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.assertj:assertj-core:jar:3.9.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.mockito:mockito-core:jar:2.15.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy:jar:1.7.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy-agent:jar:1.7.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.mockito:mockito-core:jar:2.15.0/org.objenesis:objenesis:jar:2.6</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.springframework:spring-core:jar:5.0.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.springframework:spring-core:jar:5.0.5.RELEASE/org.springframework:spring-jcl:jar:5.0.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.springframework:spring-test:jar:5.0.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.xmlunit:xmlunit-core:jar:2.5.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zipkin:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zipkin:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-sleuth:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zipkin:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-sleuth:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zipkin:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-sleuth:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.0.1.RELEASE/org.aspectj:aspectjweaver:jar:1.8.13</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zipkin:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-sleuth:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-sleuth-core:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zipkin:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-sleuth:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-sleuth-core:jar:2.0.1.RELEASE/org.aspectj:aspectjrt:jar:1.8.13</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zipkin:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-sleuth:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-sleuth-core:jar:2.0.1.RELEASE/io.zipkin.brave:brave:jar:5.1.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zipkin:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-sleuth:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-sleuth-core:jar:2.0.1.RELEASE/io.zipkin.brave:brave-context-log4j2:jar:5.1.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zipkin:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-sleuth:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-sleuth-core:jar:2.0.1.RELEASE/io.zipkin.brave:brave-instrumentation-spring-web:jar:5.1.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zipkin:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-sleuth:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-sleuth-core:jar:2.0.1.RELEASE/io.zipkin.brave:brave-instrumentation-spring-web:jar:5.1.4/io.zipkin.brave:brave-instrumentation-http:jar:5.1.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zipkin:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-sleuth:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-sleuth-core:jar:2.0.1.RELEASE/io.zipkin.brave:brave-instrumentation-spring-rabbit:jar:5.1.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zipkin:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-sleuth:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-sleuth-core:jar:2.0.1.RELEASE/io.zipkin.brave:brave-instrumentation-kafka-clients:jar:5.1.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zipkin:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-sleuth:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-sleuth-core:jar:2.0.1.RELEASE/io.zipkin.brave:brave-instrumentation-httpclient:jar:5.1.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zipkin:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-sleuth:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-sleuth-core:jar:2.0.1.RELEASE/io.zipkin.brave:brave-instrumentation-httpasyncclient:jar:5.1.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zipkin:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-sleuth:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-sleuth-core:jar:2.0.1.RELEASE/io.zipkin.brave:brave-instrumentation-spring-webmvc:jar:5.1.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zipkin:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-sleuth:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-sleuth-core:jar:2.0.1.RELEASE/io.zipkin.brave:brave-instrumentation-spring-webmvc:jar:5.1.4/io.zipkin.brave:brave-instrumentation-servlet:jar:5.1.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zipkin:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-sleuth-zipkin:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zipkin:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-sleuth-zipkin:jar:2.0.1.RELEASE/io.zipkin.zipkin2:zipkin:jar:2.10.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zipkin:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-sleuth-zipkin:jar:2.0.1.RELEASE/io.zipkin.reporter2:zipkin-reporter:jar:2.7.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zipkin:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-sleuth-zipkin:jar:2.0.1.RELEASE/io.zipkin.reporter2:zipkin-sender-kafka11:jar:2.7.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zipkin:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-sleuth-zipkin:jar:2.0.1.RELEASE/io.zipkin.reporter2:zipkin-sender-amqp-client:jar:2.7.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-zuul:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-zuul:jar:2.0.1.RELEASE/org.apache.httpcomponents:httpclient:jar:4.5.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-zuul:jar:2.0.1.RELEASE/org.apache.httpcomponents:httpclient:jar:4.5.5/org.apache.httpcomponents:httpcore:jar:4.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-zuul:jar:2.0.1.RELEASE/com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-zuul:jar:2.0.1.RELEASE/com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-context:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.1.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-actuator:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.1.RELEASE/io.micrometer:micrometer-core:jar:1.0.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.1.RELEASE/io.micrometer:micrometer-core:jar:1.0.3/org.hdrhistogram:HdrHistogram:jar:2.1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.1.RELEASE/io.micrometer:micrometer-core:jar:1.0.3/org.latencyutils:LatencyUtils:jar:2.0.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-core:jar:1.5.12</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-core:jar:1.5.12/org.hdrhistogram:HdrHistogram:jar:2.1.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-serialization:jar:1.5.12</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-serialization:jar:1.5.12/com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.9.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-metrics-event-stream:jar:1.5.12</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.12</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.12/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.1.RELEASE/io.reactivex:rxjava-reactive-streams:jar:1.2.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/io.reactivex:rxnetty-contexts:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/io.reactivex:rxnetty-servo:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.1.23.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.23.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.23.Final/io.netty:netty-transport-native-unix-common:jar:4.1.23.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.5/commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.netflix.netflix-commons:netflix-statistics:jar:0.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.1.RELEASE/io.reactivex:rxjava:jar:1.3.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.1.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.1.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.code.findbugs:jsr305:jar:3.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.1.RELEASE/commons-configuration:commons-configuration:jar:1.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/com.netflix.zuul:zuul-core:jar:1.3.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.1.RELEASE/com.netflix.zuul:zuul-core:jar:1.3.1/com.netflix.servo:servo-core:jar:0.12.21</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/org.codehaus.jettison:jettison:jar:1.3.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/org.codehaus.jettison:jettison:jar:1.3.7/stax:stax-api:jar:1.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/commons-jxpath:commons-jxpath:jar:1.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/joda-time:joda-time:jar:2.9.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/org.antlr:stringtemplate:jar:3.2.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.code.gson:gson:jar:2.8.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/org.apache.commons:commons-math:jar:2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/javax.ws.rs:jsr311-api:jar:1.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.sun.jersey:jersey-core:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.sun.jersey:jersey-client:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.github.vlsi.compactmap:compactmap:jar:1.2.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.github.vlsi.compactmap:compactmap:jar:1.2.1/com.github.andrewoma.dexx:dexx-collections:jar:0.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.fasterxml.jackson.core:jackson-core:jar:2.9.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.3/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.3/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/javax.xml.stream:stax-api:jar:1.0-2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.3/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.10/xmlpull:xmlpull:jar:1.1.3.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.1.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.10/xpp3:xpp3_min:jar:1.1.4c</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="2223.5" y="1205.0" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-govern-gateway/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="18" selection-start-line="18" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="233">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-govern-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.1.RELEASE/spring-boot-autoconfigure-2.0.1.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-govern-gateway/src/main/java/com/coffee/life/govern/gateway/filter/InternalURIAccessFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-govern-gateway/src/main/java/com/coffee/life/govern/gateway/filter/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/authentication/AbstractAuthenticationToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="e#2686#2687#0" expanded="true" />
+            <element signature="e#2724#2725#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.4.RELEASE/spring-security-web-5.0.4.RELEASE.jar!/org/springframework/security/web/util/matcher/AntPathRequestMatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding>
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.28/tomcat-embed-core-8.5.28-sources.jar!/javax/servlet/ServletRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="396" column="29" selection-start-line="396" selection-start-column="29" selection-end-line="396" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.4.RELEASE/spring-security-web-5.0.4.RELEASE.jar!/org/springframework/security/web/authentication/ForwardAuthenticationSuccessHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.4.RELEASE/spring-security-web-5.0.4.RELEASE.jar!/org/springframework/security/web/authentication/AbstractAuthenticationTargetUrlRequestHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.4.RELEASE/spring-security-web-5.0.4.RELEASE.jar!/org/springframework/security/web/authentication/SimpleUrlAuthenticationSuccessHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.4.RELEASE/spring-security-web-5.0.4.RELEASE.jar!/org/springframework/security/web/authentication/SavedRequestAwareAuthenticationSuccessHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="39" column="45" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.4.RELEASE/spring-security-web-5.0.4.RELEASE.jar!/org/springframework/security/web/authentication/AuthenticationSuccessHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.28/tomcat-embed-core-8.5.28-sources.jar!/javax/servlet/FilterChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.4.RELEASE/spring-security-web-5.0.4.RELEASE.jar!/org/springframework/security/web/header/HeaderWriterFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/client/filter/OAuth2ClientAuthenticationProcessingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.4.RELEASE/spring-security-web-5.0.4.RELEASE.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="65" column="16" lean-forward="true" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.4.RELEASE/spring-security-web-5.0.4.RELEASE.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="70" column="43" lean-forward="true" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#1063#1064#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/core/context/SecurityContextHolder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#1035#1036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-service-ucenter-auth/src/main/java/com/coffee/life/auth/service/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cl-framework-utils/src/main/java/com/coffee/life/framework/utils/Oauth2Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="349">
+          <caret line="33" column="54" lean-forward="true" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="429" selection-start-line="429" selection-end-line="429" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-service-manage-course/src/main/java/com/coffee/life/manage/course/controller/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="101" column="21" lean-forward="true" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cl-framework-utils/src/main/java/com/coffee/life/framework/utils/XcOauth2Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="106">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogMqClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-framework-utils/src/main/java/com/coffee/life/framework/utils/AppUserUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-framework-common/src/main/java/com/coffee/life/framework/exception/ExceptionCatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-framework-common/src/main/java/com/coffee/life/framework/interceptor/FeignClientInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-framework-common/src/main/java/com/coffee/life/framework/web/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="749" column="6" selection-start-line="749" selection-start-column="6" selection-end-line="749" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-framework-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-framework-utils/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-framework-utils/src/main/java/com/coffee/life/framework/utils/PageUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-framework-utils/src/main/java/com/coffee/life/framework/utils/ZipUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#1053#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-framework-utils/src/main/java/com/coffee/life/framework/utils/AppUserUtil.java" />
-    <entry file="file://$PROJECT_DIR$/cl-framework-utils/src/main/java/com/coffee/life/framework/utils/HttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#4325#0" expanded="true" />
+            <element signature="e#0#1599#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cl-govern-gateway/src/main/java/com/coffee/life/govern/gateway/GatewayApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-          <folding>
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cl-govern-gateway/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/cl-framework-utils/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-govern-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="398">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cl-framework-common/pom.xml">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-jwt/1.0.8.RELEASE/spring-security-jwt-1.0.8.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        <state relative-caret-position="760">
+          <caret line="38" column="31" selection-start-line="37" selection-start-column="24" selection-end-line="38" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.6.3/mongo-java-driver-3.6.3.jar!/com/mongodb/connection/DefaultServerMonitor.class">
+    <entry file="file://$PROJECT_DIR$/cl-service-ucenter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="208">
+          <caret line="16" selection-start-line="16" selection-end-line="20" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cl-framework-model/src/main/java/com/coffee/life/framework/domain/portalview/PreViewCourse.java">
+    <entry file="file://$PROJECT_DIR$/cl-govern-center/src/main/java/com/coffee/life/govern/center/GovernCenterApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        <state relative-caret-position="200">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cl-framework-model/src/main/java/com/coffee/life/framework/domain/portalview/PreViewCourseMedia.java">
+    <entry file="file://$PROJECT_DIR$/cl-service-ucenter/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-service-ucenter/src/main/java/com/coffee/life/ucenter/UcenterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-framework-model/src/main/java/com/coffee/life/framework/domain/log/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-service-ucenter-auth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-framework-common/src/main/java/com/coffee/life/framework/client/XcServiceList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cl-service-ucenter/src/main/java/com/coffee/life/ucenter/controller/UcenterController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cl-log-starter/src/main/resources/.gitignore">
+    <entry file="file://$PROJECT_DIR$/cl-service-ucenter-auth/src/main/java/com/coffee/life/auth/controller/AuthController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="157">
+          <caret line="51" column="41" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/resources/.gitignore">
+    <entry file="file://$PROJECT_DIR$/cl-framework-common/src/main/java/com/coffee/life/framework/annotation/LogAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-framework-parent/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-framework-utils/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-framework-common/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/eureka.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-502" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/Ribbon客户端负载均衡.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="40">
-            <caret line="2" column="12" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/分布式链路追踪.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth2/oauth2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/springcloud版本.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud/hystrix.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth2/oauth2环境搭建.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth2/oauth2_jwt.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="-20">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="1300">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-log-center/src/test/java/com/cloud/log/LogTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-log-starter/src/main/java/com/coffee/life/log/starter/LogMqClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/LogCenterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/service/impl/LogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/service/impl/EsLogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/dao/LogDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/controller/LogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/config/AsycTaskExecutorConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/config/RabbitmqConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#478#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/config/ResourceServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cl-log-center/src/main/java/com/coffee/life/log/center/consumer/LogConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#968#0" expanded="true" />
           </folding>
         </state>
       </provider>

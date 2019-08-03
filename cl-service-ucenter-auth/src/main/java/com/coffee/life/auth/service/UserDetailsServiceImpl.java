@@ -67,22 +67,20 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         }
         List<String> user_permission = new ArrayList<>();
         permissions.forEach(item-> user_permission.add(item.getCode()));
-        //使用静态的权限表示用户所拥有的权限
-//        user_permission.add("course_get_baseinfo");//查询课程信息
-//        user_permission.add("course_pic_list");//图片查询
+
+
         String user_permission_string  = StringUtils.join(user_permission.toArray(), ",");
         UserJwt userDetails = new UserJwt(username,
                 password,
                 AuthorityUtils.commaSeparatedStringToAuthorityList(user_permission_string));
+
         userDetails.setId(userext.getId());
         userDetails.setUtype(userext.getUtype());//用户类型
         userDetails.setCompanyId(userext.getCompanyId());//所属企业
         userDetails.setName(userext.getName());//用户名称
         userDetails.setUserpic(userext.getUserpic());//用户头像
-       /* UserDetails userDetails = new org.springframework.security.core.userdetails.User(username,
-                password,
-                AuthorityUtils.commaSeparatedStringToAuthorityList(""));*/
-//                AuthorityUtils.createAuthorityList("course_get_baseinfo","course_get_list"));
+
+
         return userDetails;
     }
 }

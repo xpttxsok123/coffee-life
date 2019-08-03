@@ -2,6 +2,9 @@ package com.coffee.life.framework.utils;
 
 import lombok.Data;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.stereotype.Component;
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
@@ -9,11 +12,15 @@ import java.util.Map;
 /**
  * Created by mrt on 2018/5/25.
  */
+@Component
 public class XcOauth2Util {
 
-    public UserJwt getUserJwtFromHeader(HttpServletRequest request){
+
+    public UserJwt getUserJwtFromHeader(HttpServletRequest request) {
+
+
         Map<String, String> jwtClaims = Oauth2Util.getJwtClaimsFromHeader(request);
-        if(jwtClaims == null || StringUtils.isEmpty(jwtClaims.get("id"))){
+        if (jwtClaims == null || StringUtils.isEmpty(jwtClaims.get("id"))) {
             return null;
         }
         UserJwt userJwt = new UserJwt();
@@ -25,8 +32,13 @@ public class XcOauth2Util {
         return userJwt;
     }
 
+    public UserJwt getUserJwtFromHeader() {
+        HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
+        return this.getUserJwtFromHeader(request);
+    }
+
     @Data
-    public class UserJwt{
+    public class UserJwt {
         private String id;
         private String name;
         private String userpic;
