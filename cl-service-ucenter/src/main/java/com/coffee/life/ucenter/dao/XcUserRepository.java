@@ -1,6 +1,6 @@
 package com.coffee.life.ucenter.dao;
 
-import com.coffee.life.framework.domain.ucenter.XcUser;
+import com.coffee.life.ucenter.model.XcUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

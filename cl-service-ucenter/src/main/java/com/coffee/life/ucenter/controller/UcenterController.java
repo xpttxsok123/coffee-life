@@ -1,9 +1,9 @@
 package com.coffee.life.ucenter.controller;
 
-import com.coffee.life.api.ucenter.UcenterControllerApi;
-import com.coffee.life.framework.annotation.LogAnnotation;
+import com.coffee.life.log.starter.annotation.LogAnnotation;
 import com.coffee.life.framework.client.XcServiceList;
-import com.coffee.life.framework.domain.ucenter.ext.XcUserExt;
+import com.coffee.life.ucenter.api.UcenterControllerApi;
+import com.coffee.life.ucenter.model.XcUserExt;
 import com.coffee.life.ucenter.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

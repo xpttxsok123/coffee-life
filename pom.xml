@@ -8,19 +8,25 @@
 
     <modules>
         <module>cl-framework-common</module>
-        <module>cl-framework-model</module>
         <module>cl-framework-parent</module>
         <module>cl-framework-utils</module>
         <module>cl-govern-center</module>
         <module>cl-govern-gateway</module>
+
+        <module>cl-log-model</module>
         <module>cl-log-starter</module>
         <module>cl-log-center</module>
-        <module>cl-service-api</module>
-        <module>cl-service-manage-course</module>
-        <module>cl-service-search</module>
+
+        <module>cl-service-ucenter-api</module>
         <module>cl-service-ucenter</module>
-        <module>cl-service-ucenter-auth</module>
+
+
+        <module>cl-service-search</module>
+        <module>cl-service-oauth</module>
         <module>cl-zipkin-server</module>
+        <module>cl-service-oauth-api</module>
+
+
     </modules>
 
 </project>

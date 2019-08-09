@@ -1,10 +1,11 @@
 package com.coffee.life.log.center.service.impl;
 
-import com.coffee.life.framework.domain.log.Log;
+
 import com.coffee.life.framework.model.response.Page;
 import com.coffee.life.framework.utils.PageUtil;
 import com.coffee.life.log.center.dao.LogDao;
 import com.coffee.life.log.center.service.LogService;
+import com.coffee.life.log.model.Log;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
@@ -33,7 +34,7 @@ public class LogServiceImpl implements LogService {
 	 */
 	@Async
 	@Override
-	public void save(Log log) {
+	public void save(Log  log) {
 		if (log.getCreateTime() == null) {
 			log.setCreateTime(new Date());
 		}

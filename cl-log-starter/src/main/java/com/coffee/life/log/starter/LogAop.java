@@ -1,9 +1,9 @@
 package com.coffee.life.log.starter;
 
 import com.alibaba.fastjson.JSONObject;
-import com.coffee.life.framework.annotation.LogAnnotation;
-import com.coffee.life.framework.domain.log.Log;
 import com.coffee.life.framework.utils.XcOauth2Util;
+import com.coffee.life.log.model.Log;
+import com.coffee.life.log.starter.annotation.LogAnnotation;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -29,17 +29,15 @@ public class LogAop {
 //    @Autowired
 //    private AmqpTemplate amqpTemplate;
 
-    @Autowired
-    private XcOauth2Util xcOauth2Util;
 
     /**
      * 环绕带注解 @LogAnnotation的方法做aop
      */
-    @Around(value = "@annotation(com.coffee.life.framework.annotation.LogAnnotation)")
+    @Around(value = "@annotation(com.coffee.life.log.starter.annotation.LogAnnotation)")
     public Object logSave(ProceedingJoinPoint joinPoint) throws Throwable {
         Log log = new Log();
         log.setCreateTime(new Date());
-
+        XcOauth2Util xcOauth2Util = new XcOauth2Util();
         XcOauth2Util.UserJwt userJwtFromHeader = xcOauth2Util.getUserJwtFromHeader();
         if(userJwtFromHeader != null){
             log.setUsername(userJwtFromHeader.getId()+":"+userJwtFromHeader.getUtype()+":"+userJwtFromHeader.getName());

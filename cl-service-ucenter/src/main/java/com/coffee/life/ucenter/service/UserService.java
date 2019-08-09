@@ -1,12 +1,12 @@
 package com.coffee.life.ucenter.service;
 
-import com.coffee.life.framework.domain.ucenter.XcCompanyUser;
-import com.coffee.life.framework.domain.ucenter.XcMenu;
-import com.coffee.life.framework.domain.ucenter.XcUser;
-import com.coffee.life.framework.domain.ucenter.ext.XcUserExt;
 import com.coffee.life.ucenter.dao.XcCompanyUserRepository;
 import com.coffee.life.ucenter.dao.XcUserRepository;
 import com.coffee.life.ucenter.dao.XcMenuMapper;
+import com.coffee.life.ucenter.model.XcCompanyUser;
+import com.coffee.life.ucenter.model.XcMenu;
+import com.coffee.life.ucenter.model.XcUser;
+import com.coffee.life.ucenter.model.XcUserExt;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

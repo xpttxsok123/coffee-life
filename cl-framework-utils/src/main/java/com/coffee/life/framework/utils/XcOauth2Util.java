@@ -12,7 +12,6 @@ import java.util.Map;
 /**
  * Created by mrt on 2018/5/25.
  */
-@Component
 public class XcOauth2Util {
 
 

@@ -1,8 +1,8 @@
 package com.coffee.life.log.center.controller;
 
-import com.coffee.life.framework.domain.log.Log;
 import com.coffee.life.framework.model.response.Page;
 import com.coffee.life.log.center.service.LogService;
+import com.coffee.life.log.model.Log;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

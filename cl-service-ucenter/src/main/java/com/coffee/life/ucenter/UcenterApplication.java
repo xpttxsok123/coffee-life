@@ -15,9 +15,6 @@ import org.springframework.web.client.RestTemplate;
 @EnableDiscoveryClient
 @EnableFeignClients
 @MapperScan("com.coffee.life.ucenter.dao")
-@EntityScan("com.coffee.life.framework.domain.ucenter")//扫描实体类
-@ComponentScan(basePackages={"com.coffee.life.api"})//扫描接口
-@ComponentScan(basePackages={"com.coffee.life.framework"})//扫描common下的所有类
 @SpringBootApplication
 public class UcenterApplication {
     public static void main(String[] args) throws Exception {

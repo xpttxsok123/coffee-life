@@ -1,8 +1,7 @@
 package com.coffee.life.govern.gateway.service;
 
 import com.alibaba.fastjson.JSON;
-import com.coffee.life.framework.domain.ucenter.ext.AuthToken;
-import com.coffee.life.framework.utils.CookieUtil;
+import com.coffee.life.oauth.ext.AuthToken;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;

@@ -1,10 +1,10 @@
 package com.coffee.life.govern.gateway.filter;
 
 import com.alibaba.fastjson.JSON;
-import com.coffee.life.framework.domain.ucenter.ext.AuthToken;
 import com.coffee.life.framework.model.response.CommonCode;
 import com.coffee.life.framework.model.response.ResponseResult;
 import com.coffee.life.govern.gateway.service.AuthService;
+import com.coffee.life.oauth.ext.AuthToken;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;

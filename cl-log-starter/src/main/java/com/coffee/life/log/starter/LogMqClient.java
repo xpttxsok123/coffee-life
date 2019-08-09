@@ -1,6 +1,6 @@
 package com.coffee.life.log.starter;
 
-import com.coffee.life.framework.domain.log.Log;
+import com.coffee.life.log.model.Log;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -4,7 +4,7 @@
 
 
     <select id="selectPermissionByUserId" parameterType="java.lang.String"
-            resultType="com.coffee.life.framework.domain.ucenter.XcMenu">
+            resultType="com.coffee.life.ucenter.model.XcMenu">
 
     SELECT
         id,
