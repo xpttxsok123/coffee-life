@@ -20,7 +20,7 @@ import java.util.Arrays;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-@EnableFeignClients
+@EnableFeignClients(basePackages = "com.coffee.life")
 public class UcenterAuthApplication  extends SpringBootServletInitializer implements CommandLineRunner {
     @Autowired
     private ApplicationContext appContext;

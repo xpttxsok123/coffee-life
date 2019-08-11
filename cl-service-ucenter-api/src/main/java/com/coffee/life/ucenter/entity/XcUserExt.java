@@ -1,4 +1,4 @@
-package com.coffee.life.ucenter.model;
+package com.coffee.life.ucenter.entity;
 
 import lombok.Data;
 import lombok.ToString;

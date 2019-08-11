@@ -1,6 +1,6 @@
 package com.coffee.life.log.center.dao;
 
-import com.coffee.life.log.model.Log;
+import com.coffee.life.log.entity.Log;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 

@@ -1,6 +1,6 @@
 package com.coffee.life.ucenter.dao;
 
-import com.coffee.life.ucenter.model.XcMenu;
+import com.coffee.life.ucenter.entity.XcMenu;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

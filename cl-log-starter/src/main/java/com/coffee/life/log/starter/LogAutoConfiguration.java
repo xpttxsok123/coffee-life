@@ -1,5 +1,10 @@
 package com.coffee.life.log.starter;
 
+import com.coffee.life.log.constans.LogQueue;
+import org.springframework.amqp.core.AmqpTemplate;
+import org.springframework.amqp.core.Queue;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
@@ -14,21 +19,21 @@ public class LogAutoConfiguration {
      *
      * @return
      */
-    //@Bean
-   //public Queue logQueue() {
-     //   return new Queue(LogQueue.LOG_QUEUE);
-    //}
+    @Bean
+   public Queue logQueue() {
+        return new Queue(LogQueue.LOG_QUEUE);
+    }
 
-//    @Autowired
-//    private AmqpTemplate amqpTemplate;
+    @Autowired
+    private AmqpTemplate amqpTemplate;
 
     /**
      * 将LogMqClient声明成Bean
      * 2018.07.29添加
      */
-//    @Bean
-//    public LogMqClient logMqClient() {
-//        return new LogMqClient(amqpTemplate);
-//    }
+    @Bean
+    public LogMqClient logMqClient() {
+        return new LogMqClient(amqpTemplate);
+    }
 
 }

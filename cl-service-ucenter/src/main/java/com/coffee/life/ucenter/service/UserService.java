@@ -3,10 +3,10 @@ package com.coffee.life.ucenter.service;
 import com.coffee.life.ucenter.dao.XcCompanyUserRepository;
 import com.coffee.life.ucenter.dao.XcUserRepository;
 import com.coffee.life.ucenter.dao.XcMenuMapper;
-import com.coffee.life.ucenter.model.XcCompanyUser;
-import com.coffee.life.ucenter.model.XcMenu;
-import com.coffee.life.ucenter.model.XcUser;
-import com.coffee.life.ucenter.model.XcUserExt;
+import com.coffee.life.ucenter.entity.XcCompanyUser;
+import com.coffee.life.ucenter.entity.XcMenu;
+import com.coffee.life.ucenter.entity.XcUser;
+import com.coffee.life.ucenter.entity.XcUserExt;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -21,13 +21,13 @@ import java.util.List;
 public class UserService {
 
     @Autowired
-    XcUserRepository xcUserRepository;
+    private XcUserRepository xcUserRepository;
 
     @Autowired
-    XcCompanyUserRepository xcCompanyUserRepository;
+    private XcCompanyUserRepository xcCompanyUserRepository;
 
     @Autowired
-    XcMenuMapper xcMenuMapper;
+    private XcMenuMapper xcMenuMapper;
 
     //根据账号查询xcUser信息
     public XcUser findXcUserByUsername(String username){

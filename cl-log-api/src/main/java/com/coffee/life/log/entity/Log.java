@@ -1,4 +1,4 @@
-package com.coffee.life.log.model;
+package com.coffee.life.log.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,8 +1,8 @@
 package com.coffee.life.oauth.service;
 
-import com.coffee.life.oauth.client.UserClient;
-import com.coffee.life.ucenter.model.XcMenu;
-import com.coffee.life.ucenter.model.XcUserExt;
+import com.coffee.life.ucenter.entity.XcMenu;
+import com.coffee.life.ucenter.entity.XcUserExt;
+import com.coffee.life.ucenter.feign.UserFeign;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
@@ -19,11 +19,20 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/**
+ * AbstractUserDetailsAuthenticationProvider
+ *
+ * DaoAuthenticationProvider
+ *
+ * DaoAuthenticationProvider extends AbstractUserDetailsAuthenticationProvide
+ */
+
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
 
     @Autowired
-    UserClient userClient;
+    UserFeign userFeign;
 
     @Autowired
     ClientDetailsService clientDetailsService;
@@ -45,7 +54,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
             return null;
         }
         //远程调用用户中心根据账号查询用户信息
-        XcUserExt userext = userClient.getUserext(username);
+        XcUserExt userext = userFeign.getUserext(username);
         if(userext == null){
             //返回空给spring security表示用户不存在
             return null;

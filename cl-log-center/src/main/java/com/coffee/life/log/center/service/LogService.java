@@ -1,7 +1,7 @@
 package com.coffee.life.log.center.service;
 
 import com.coffee.life.framework.model.response.Page;
-import com.coffee.life.log.model.Log;
+import com.coffee.life.log.entity.Log;
 
 import java.util.Map;
 

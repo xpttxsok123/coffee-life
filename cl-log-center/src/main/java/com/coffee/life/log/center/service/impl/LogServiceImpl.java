@@ -5,7 +5,7 @@ import com.coffee.life.framework.model.response.Page;
 import com.coffee.life.framework.utils.PageUtil;
 import com.coffee.life.log.center.dao.LogDao;
 import com.coffee.life.log.center.service.LogService;
-import com.coffee.life.log.model.Log;
+import com.coffee.life.log.entity.Log;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;

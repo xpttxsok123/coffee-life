@@ -2,7 +2,8 @@ package com.coffee.life.log.starter;
 
 import com.alibaba.fastjson.JSONObject;
 import com.coffee.life.framework.utils.XcOauth2Util;
-import com.coffee.life.log.model.Log;
+import com.coffee.life.log.constans.LogQueue;
+import com.coffee.life.log.entity.Log;
 import com.coffee.life.log.starter.annotation.LogAnnotation;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -10,6 +11,7 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Date;
@@ -26,8 +28,8 @@ public class LogAop {
 
     private static final Logger logger = LoggerFactory.getLogger(LogAop.class);
 
-//    @Autowired
-//    private AmqpTemplate amqpTemplate;
+    @Autowired
+    private AmqpTemplate amqpTemplate;
 
 
     /**
@@ -81,7 +83,7 @@ public class LogAop {
             // 异步将Log对象发送到队列
             CompletableFuture.runAsync(() -> {
                 try {
-//                    amqpTemplate.convertAndSend(LogQueue.LOG_QUEUE, log);
+                    amqpTemplate.convertAndSend(LogQueue.LOG_QUEUE, log);
                     logger.info("发送日志到队列：{}", log);
                 } catch (Exception e2) {
                     e2.printStackTrace();

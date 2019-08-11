@@ -3,10 +3,6 @@ server:
 spring:
   application:
     name: cl-govern-center #指定服务名
-#  security:
-#    user:
-#      name: admin
-#      password: admin
 eureka:
   client:
     registerWithEureka: true #服务注册，是否将自己注册到Eureka服务中

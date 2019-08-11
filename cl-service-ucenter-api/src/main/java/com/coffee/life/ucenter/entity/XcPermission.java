@@ -1,4 +1,4 @@
-package com.coffee.life.ucenter.model;
+package com.coffee.life.ucenter.entity;
 
 import lombok.Data;
 import lombok.ToString;
@@ -13,24 +13,20 @@ import java.util.Date;
 @Data
 @ToString
 @Entity
-@Table(name="xc_role")
+@Table(name="xc_permission")
 @GenericGenerator(name = "jpa-uuid", strategy = "uuid")
-public class XcRole {
+public class XcPermission {
 
     @Id
     @GeneratedValue(generator = "jpa-uuid")
     @Column(length = 32)
     private String id;
-    @Column(name="role_name")
-    private String roleName;
-    @Column(name="roleCode")
-    private String role_code;
-    private String description;
-    private String status;
+    @Column(name="roleId")
+    private String role_id;
+    @Column(name="menuId")
+    private String menu_id;
     @Column(name="createTime")
     private Date create_time;
-    @Column(name="update_time")
-    private Date updateTime;
 
 
 }

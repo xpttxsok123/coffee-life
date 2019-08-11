@@ -13,7 +13,7 @@
         <module>cl-govern-center</module>
         <module>cl-govern-gateway</module>
 
-        <module>cl-log-model</module>
+        <module>cl-log-api</module>
         <module>cl-log-starter</module>
         <module>cl-log-center</module>
 

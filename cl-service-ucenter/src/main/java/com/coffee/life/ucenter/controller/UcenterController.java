@@ -1,9 +1,9 @@
 package com.coffee.life.ucenter.controller;
 
 import com.coffee.life.log.starter.annotation.LogAnnotation;
-import com.coffee.life.framework.client.XcServiceList;
-import com.coffee.life.ucenter.api.UcenterControllerApi;
-import com.coffee.life.ucenter.model.XcUserExt;
+import com.coffee.life.ucenter.app.UserApp;
+import com.coffee.life.ucenter.entity.XcUserExt;
+import com.coffee.life.ucenter.feign.UserFeign;
 import com.coffee.life.ucenter.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
  **/
 @RestController
 @RequestMapping("/ucenter")
-public class UcenterController implements UcenterControllerApi {
+public class UcenterController implements UserFeign {
     @Autowired
     UserService userService;
 
@@ -28,7 +28,7 @@ public class UcenterController implements UcenterControllerApi {
     }
 
     @GetMapping("/test")
-    @LogAnnotation(module = XcServiceList.CL_SERVICE_UCENTER)
+    @LogAnnotation(module = UserApp.CL_SERVICE_UCENTER)
     public String test(@RequestParam("name") String name) {
         return "test";
     }

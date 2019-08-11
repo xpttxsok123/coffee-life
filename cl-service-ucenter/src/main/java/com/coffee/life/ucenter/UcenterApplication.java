@@ -14,7 +14,6 @@ import org.springframework.web.client.RestTemplate;
 
 @EnableDiscoveryClient
 @EnableFeignClients
-@MapperScan("com.coffee.life.ucenter.dao")
 @SpringBootApplication
 public class UcenterApplication {
     public static void main(String[] args) throws Exception {
