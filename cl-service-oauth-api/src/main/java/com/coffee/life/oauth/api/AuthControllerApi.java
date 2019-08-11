@@ -10,7 +10,7 @@ import io.swagger.annotations.ApiOperation;
 /**
  * Created by jay.
  */
-@Api(value = "用户认证",description = "用户认证接口")
+@Api(value = "用户认证",description = "用户认证中心")
 public interface AuthControllerApi {
     @ApiOperation("登录")
     public LoginResult login(LoginRequest loginRequest);

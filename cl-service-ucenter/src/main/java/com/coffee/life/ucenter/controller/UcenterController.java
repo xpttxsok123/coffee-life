@@ -29,7 +29,7 @@ public class UcenterController implements UserFeign {
 
     @GetMapping("/test")
     @LogAnnotation(module = UserApp.CL_SERVICE_UCENTER)
-    public String test(@RequestParam("name") String name) {
+    public String test(@RequestParam("username") String username,Integer id) {
         return "test";
     }
 }

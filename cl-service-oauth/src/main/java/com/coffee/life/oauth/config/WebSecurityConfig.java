@@ -36,8 +36,7 @@ class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     public void configure(HttpSecurity http) throws Exception {
         //解决不允许显示在iframe的问题
-        http.headers().frameOptions().disable();
-
+        http.headers().frameOptions().disable().xssProtection().disable();
 
         http.csrf().disable()
                 .httpBasic().and()
