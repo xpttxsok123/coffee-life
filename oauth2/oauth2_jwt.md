@@ -900,5 +900,13 @@ public class ExportCert {
 
 #### 
 
+##httpCode
 
-
+HTTP 400 bad request 
+HTTP 401 错误 - 未授权： (Unauthorized)
+HTTP 403 Forbidden - 拒绝访问
+HTTP 404 Not Found：请求资源不存在
+HTTP 500 Internal Server Error：服务器发生不可预期的错误。
+HTTP 502 bad gateway 网关错误
+HTTP 503 Server Unavailable：服务不可用
+HTTP 504 网关超时

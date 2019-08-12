@@ -62,7 +62,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>1.5.9.RELEASE</version>
                 <configuration>
-                    <mainClass>com.coffee.life.search.SearchApplication</mainClass>
+                    <mainClass>com.coffee.life.SearchApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

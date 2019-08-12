@@ -78,7 +78,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>1.5.9.RELEASE</version>
                 <configuration>
-                    <mainClass>com.coffee.life.oauth.UcenterAuthApplication</mainClass>
+                    <mainClass>com.coffee.life.UcenterAuthApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

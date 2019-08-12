@@ -87,7 +87,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>1.5.9.RELEASE</version>
                 <configuration>
-                    <mainClass>com.coffee.life.ucenter.UcenterApplication</mainClass>
+                    <mainClass>com.coffee.life.UcenterApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>
