@@ -1,5 +1,6 @@
 package com.coffee.life.config;
 
+import com.coffee.life.common.constants.PermitAllUrl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.core.annotation.Order;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -11,7 +12,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 
-@EnableWebSecurity
+@EnableWebSecurity(debug = true)
 @Order(-1)
 class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
@@ -43,7 +44,7 @@ class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .formLogin()
                 .and()
                 .authorizeRequests().anyRequest().authenticated()
-                .antMatchers("oauth/token").permitAll();
+                .antMatchers(PermitAllUrl.permitAllUrl("oauth/token")).permitAll();
 
     }
 }

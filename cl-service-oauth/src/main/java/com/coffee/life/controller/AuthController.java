@@ -1,18 +1,16 @@
 package com.coffee.life.controller;
 
 import com.coffee.life.api.AuthControllerApi;
-import com.coffee.life.log.stater.annotation.LogAnnotation;
 import com.coffee.life.api.ext.AuthToken;
-import com.coffee.life.common.client.XcServiceList;
-import com.coffee.life.common.exception.ExceptionCast;
 import com.coffee.life.api.request.LoginRequest;
 import com.coffee.life.api.response.AuthCode;
-import com.coffee.life.api.response.JwtResult;
-import com.coffee.life.api.response.LoginResult;
-import com.coffee.life.utils.CookieUtil;
-import com.coffee.life.service.AuthService;
+import com.coffee.life.common.client.XcServiceList;
+import com.coffee.life.common.exception.ExceptionCast;
 import com.coffee.life.common.model.response.CommonCode;
 import com.coffee.life.common.model.response.ResponseResult;
+import com.coffee.life.log.stater.annotation.LogAnnotation;
+import com.coffee.life.service.AuthService;
+import com.coffee.life.utils.CookieUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -49,7 +47,7 @@ public class AuthController implements AuthControllerApi {
     @Override
     @PostMapping("/userlogin")
     @LogAnnotation(module = XcServiceList.CL_SERVICE_UCENTER_AUTH)
-    public LoginResult login(LoginRequest loginRequest) {
+    public ResponseResult login(LoginRequest loginRequest) {
         if(loginRequest == null || StringUtils.isEmpty(loginRequest.getUsername())){
             ExceptionCast.cast(AuthCode.AUTH_USERNAME_NONE);
         }
@@ -72,7 +70,7 @@ public class AuthController implements AuthControllerApi {
         //this.saveCookie(access_token);
 
         //return new LoginResult(CommonCode.SUCCESS,access_token);
-        return new LoginResult(CommonCode.SUCCESS,authToken);
+        return new ResponseResult(CommonCode.SUCCESS,authToken);
     }
 
 /*    //将令牌存储到cookie
@@ -102,16 +100,16 @@ public class AuthController implements AuthControllerApi {
         boolean result = authService.delToken(uid);
         //清除cookie
         //this.clearCookie(uid);
-        return new ResponseResult(CommonCode.SUCCESS);
+        return new ResponseResult(CommonCode.SUCCESS,null);
     }
 
     @Override
     @GetMapping("/userjwt")
-    public JwtResult userjwt() {
+    public ResponseResult userjwt() {
         //取出cookie中的用户身份令牌
         String uid = getTokenFormCookie();
         if(uid == null){
-            return new JwtResult(CommonCode.FAIL,null);
+            return new ResponseResult(CommonCode.FAIL,null);
         }
 
         //拿身份令牌从redis中查询jwt令牌
@@ -119,7 +117,7 @@ public class AuthController implements AuthControllerApi {
         if(userToken!=null){
             //将jwt令牌返回给用户
             String jwt_token = userToken.getJwt_token();
-            return new JwtResult(CommonCode.SUCCESS,jwt_token);
+            return new ResponseResult(CommonCode.SUCCESS,jwt_token);
         }
         return null;
     }

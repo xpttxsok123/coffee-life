@@ -7,28 +7,41 @@ import lombok.ToString;
 @Data
 @ToString
 @NoArgsConstructor
-public class ResponseResult implements Response {
+public class ResponseResult<D> implements Response {
 
     //操作是否成功
-    boolean success = SUCCESS;
+    private boolean success = SUCCESS;
 
     //操作代码
-    int code = SUCCESS_CODE;
+    private int code = SUCCESS_CODE;
 
     //提示信息
-    String message;
+    private String message;
 
-    public ResponseResult(ResultCode resultCode){
+    private D data;
+
+
+    public ResponseResult(ResultCode resultCode, D data) {
         this.success = resultCode.success();
         this.code = resultCode.code();
         this.message = resultCode.message();
+        this.data = data;
     }
 
-    public static ResponseResult SUCCESS(){
-        return new ResponseResult(CommonCode.SUCCESS);
+    public ResponseResult SUCCESS(D d) {
+        return new ResponseResult(CommonCode.SUCCESS, d);
     }
-    public static ResponseResult FAIL(){
-        return new ResponseResult(CommonCode.FAIL);
+    public ResponseResult SUCCESS(ResultCode resultCode,D d) {
+        return new ResponseResult(resultCode, d);
+    }
+
+
+
+    public ResponseResult FAIL(D d) {
+        return new ResponseResult(CommonCode.FAIL, d);
+    }
+    public ResponseResult FAIL(ResultCode resultCode,D d) {
+        return new ResponseResult(resultCode, d);
     }
 
 }

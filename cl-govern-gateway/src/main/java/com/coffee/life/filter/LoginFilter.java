@@ -98,7 +98,7 @@ public class LoginFilter extends ZuulFilter {
         //设置响应代码
         requestContext.setResponseStatusCode(200);
         //构建响应的信息
-        ResponseResult responseResult = new ResponseResult(CommonCode.UNAUTHENTICATED);
+        ResponseResult responseResult = new ResponseResult(CommonCode.UNAUTHENTICATED,null);
         //转成json
         String jsonString = JSON.toJSONString(responseResult);
         requestContext.setResponseBody(jsonString);
