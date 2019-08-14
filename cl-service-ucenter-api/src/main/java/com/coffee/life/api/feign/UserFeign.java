@@ -25,7 +25,7 @@ public interface UserFeign {
             @ApiImplicitParam(name = "username", value = "用户名", paramType = "query", dataType = "String")
     })
     @GetMapping("/ucenter/getuserext")
-    public XcUserExt getUserext(@RequestParam("username") String username);
+    XcUserExt getUserext(@RequestParam("username") String username);
 
 
     @ApiOperation("用户接口测试")
@@ -34,6 +34,6 @@ public interface UserFeign {
             @ApiImplicitParam(name = "id", value = "用户ID", paramType = "query", dataType = "Integer")
     })
     @GetMapping("/ucenter/test")
-    public String test(@RequestParam("username") String username, Integer id);
+    String test(@RequestParam("username") String username, Integer id);
 
 }

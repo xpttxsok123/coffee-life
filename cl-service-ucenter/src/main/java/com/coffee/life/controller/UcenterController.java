@@ -32,12 +32,12 @@ public class UcenterController implements UserFeign {
     @PreAuthorize("hasAuthority('course_teachplan_list1')")
     @GetMapping("/test1")
     public String findTeachplanList(String username) {
-        return "test1";
+        return username;
     }
 
     @GetMapping("/test")
     @LogAnnotation(module = UserApp.CL_SERVICE_UCENTER)
     public String test(@RequestParam("username") String username,Integer id) {
-        return "test";
+        return username;
     }
 }

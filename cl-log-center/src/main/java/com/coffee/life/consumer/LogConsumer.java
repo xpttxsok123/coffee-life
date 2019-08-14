@@ -12,9 +12,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * 从mq队列消费日志数据
- * 
- * @author 小威老师 xiaoweijiagou@163.com
- *
  */
 @Component
 @RabbitListener(queues = LogQueue.LOG_QUEUE) // 监听队列
