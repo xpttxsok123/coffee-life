@@ -40,7 +40,7 @@
         <feign-okhttp.version>8.18.0</feign-okhttp.version>
 
         <elasticsearch.version>6.2.1</elasticsearch.version>
-        <mysql-connector-java.version>5.1.45</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.16</mysql-connector-java.version>
         <spring-security-jwt>1.0.8.RELEASE</spring-security-jwt>
     </properties>
     <!--test-->
